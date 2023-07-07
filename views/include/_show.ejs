@@ -1,0 +1,29 @@
+<% if (questions && questions.length > 0) { %>
+  <% for (var i = 0; i < questions.length; i++) { %>
+    <tr>
+      <td><%= i + 1 %></td>
+      <td><%= questions[i].question %></td>
+      <% if (questions[i].answers) { %>
+        <td><%= questions[i].answers[0] %></td>
+        <td><%= questions[i].answers[1] %></td>
+        <td><%= questions[i].answers[2] %></td>
+        <td><%= questions[i].answers[3] %></td>
+        <td><%= questions[i].answers[4] %></td>
+      <% } else { %>
+        <td colspan="5">No answers found</td>
+      <% } %>
+      <td>
+        <a href="/update-question?id=<%= questions[i]._id %>" class="btn border-shadow update">
+          <span class="text-gradient"><i class="fas fa-pencil-alt"></i></span>
+        </a>
+        <a class="btn border-shadow delete" data-id=<%= questions[i]._id%> >
+          <span class="text-gradient"><i class="fas fa-times"></i></span>
+        </a>
+      </td>
+    </tr>
+  <% } %>
+<% } else { %>
+  <tr>
+    <td colspan="8">No questions found</td>
+  </tr>
+<% } %>

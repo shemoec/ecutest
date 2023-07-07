@@ -1,0 +1,17 @@
+<script src="/js/index.js"></script>
+
+<footer>
+  <div class="footer-links">
+    <span>Victor Sangines UTPL &copy; 2023</span>
+
+    <% if (loggedIn) { %>
+      <form action="/logout" method="POST">
+        <button type="submit" class="logout-button">Cerrar sesión</button>
+      </form>
+      <button onclick="window.location.href = '/dashboard';" class="dashboard-button">Dashboard</button>
+
+    <% } else { %>
+      <a href="/login" class="login-link">Iniciar sesión</a>
+    <% } %>
+  </div>
+</footer>

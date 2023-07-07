@@ -1,0 +1,154 @@
+<!-- include header -->
+<%- include('include/_header') %>
+<!-- /include header -->
+<link rel="stylesheet" href="https://cdn.datatables.net/1.13.4/css/jquery.dataTables.min.css">
+
+<main>
+  <!-- Tabla de ofertas académicas -->
+  <div class="container">
+    <!-- Filtros de búsqueda avanzada -->
+    <h2>Filtros Avanzados:</h2>
+    <div class="row">
+      <div class="col-md-3">
+        <label for="institucionFilter">Institución:</label>
+        <select id="institucionFilter" class="form-control filter-input" data-column-index="0">
+          <option value="">Todas</option>
+          <% instituciones.forEach(institucion => { %>
+            <option value="<%= institucion %>"><%= institucion %></option>
+          <% }) %>
+        </select>
+      </div>
+      <div class="col-md-3">
+        <label for="carreraFilter">Carrera:</label>
+        <select id="carreraFilter" class="form-control filter-input" data-column-index="1">
+          <option value="">Todas</option>
+          <% carreras.forEach(carrera => { %>
+            <option value="<%= carrera %>"><%= carrera %></option>
+          <% }) %>
+        </select>
+      </div>
+      <div class="col-md-3">
+        <label for="provinciaFilter">Provincia:</label>
+        <select id="provinciaFilter" class="form-control filter-input" data-column-index="2">
+          <option value="">Todas</option>
+          <% provincias.forEach(provincia => { %>
+            <option value="<%= provincia %>"><%= provincia %></option>
+          <% }) %>
+        </select>
+      </div>
+      <div class="col-md-3">
+        <label for="ciudadFilter">Ciudad:</label>
+        <select id="ciudadFilter" class="form-control filter-input" data-column-index="3">
+          <option value="">Todas</option>
+          <% ciudades.forEach(ciudad => { %>
+            <option value="<%= ciudad %>"><%= ciudad %></option>
+          <% }) %>
+        </select>
+      </div>
+      <div class="col-md-3">
+        <label for="areaFilter">Área:</label>
+        <select id="areaFilter" class="form-control filter-input" data-column-index="6">
+          <option value="">Todas</option>
+          <% areas.forEach(area => { %>
+            <option value="<%= area %>"><%= area %></option>
+          <% }) %>
+        </select>
+      </div> 
+      <div class="col-md-3">
+        <label for="areaFilter">Modalidad:</label>
+        <select id="areaFilter" class="form-control filter-input" data-column-index="5">
+          <option value="">Todas</option>
+          <% modalidades.forEach(modalidad => { %>
+            <option value="<%= modalidad %>"><%= modalidad %></option>
+          <% }) %>
+        </select>
+      </div>   
+      <div class="col-md-3">
+        <label for="areaFilter">Tipo:</label>
+        <select id="areaFilter" class="form-control filter-input" data-column-index="7">
+          <option value="">Todas</option>
+          <% tipos.forEach(tipo => { %>
+            <option value="<%= tipo %>"><%= tipo %></option>
+          <% }) %>
+        </select>
+      </div>          
+    </div>
+    <h2>Lista de Ofertas Académicas:</h2>
+    <!-- /Filtros de búsqueda avanzada -->
+    <table id="ofertasTable" class="table">
+      <thead>
+        <tr>
+          <th>Institución</th>
+          <th>Carrera</th>
+          <th>Provincia</th>
+          <th>Ciudad</th>
+          <th>Jornada</th>
+          <th>Modalidad</th>
+          <th>Area</th>
+          <th>Tipo</th>
+          <th>Link</th>
+        </tr>
+      </thead>
+      <tbody>
+        <% ofertasAcademicas.forEach(oferta => { %>
+          <tr>
+            <td><%= oferta.institucion %></td>
+            <td><%= oferta.carrera %></td>
+            <td><%= oferta.provincia %></td>
+            <td><%= oferta.ciudad %></td>
+            <td><%= oferta.jornada %></td>
+            <td><%= oferta.modalidad %></td>
+            <td><%= oferta.area %></td>
+            <td><%= oferta.tipo %></td>
+            <td><a href="<%= oferta.link %>"><%= oferta.link %></a></td>
+          </tr>
+        <% }) %>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- include footer -->
+  <% include('include/_footer') %>
+
+  <!-- /include footer -->
+
+  <!-- Scripts -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.min.js"></script>
+
+  <!-- Inicialización de DataTables y filtros de búsqueda avanzada -->
+  <script>
+
+$(document).ready(function() {
+  // Inicializar la tabla con DataTables
+  var table = $('#ofertasTable').DataTable();
+  
+  // Agregar controladores de eventos a los menús desplegables de filtros
+  $('.filter-input').on('change', function() {
+  // Obtener el índice de la columna a filtrar
+  var columnIndex = $(this).data('column-index');
+  
+  // Obtener el valor seleccionado en el menú desplegable
+  var filterValue = $(this).val();
+  
+  // Eliminar los espacios adicionales del valor seleccionado
+  filterValue = filterValue.trim();
+
+  filterValue = filterValue.replace(/(\r\n|\n|\r)/gm, ' ');
+  
+  // Filtrar la tabla por el valor seleccionado
+  table.column(columnIndex).search(filterValue).draw();
+
+    // Imprimir el valor seleccionado en la consola
+    console.log('Filter value:', filterValue);
+});
+
+
+
+
+});
+
+  </script>
+
+</main>
+

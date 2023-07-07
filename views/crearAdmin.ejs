@@ -1,0 +1,72 @@
+<!-- include header -->
+<%- include('include/_header') %>
+<!-- /include header -->
+
+<!-- Incluir estilos CSS de Data Tables -->
+<link rel="stylesheet" href="https://cdn.datatables.net/1.11.4/css/jquery.dataTables.min.css">
+
+<!-- Main Site -->
+<main id="site-main">
+    <div class="container">
+        <!-- include header -->
+        <%- include('include/_dashboardmenu') %>
+        <!-- /include header -->
+        <div class="form-title text-center">
+            <h2 class="text-dark">Crear Usuario Administrador</h2>
+        </div>
+        <form action="/crearAdmin" method="POST" class="form">
+            <div class="form-group">
+                <label for="usuario" class="text-light">Usuario</label>
+                <input type="text" id="usuario" name="usuario" required placeholder="Ingrese el nombre de usuario" class="form-control">
+            </div>
+            <div class="form-group">
+                <label for="contrasena" class="text-light">Contraseña</label>
+                <input type="password" id="contrasena" name="contrasena" required placeholder="Ingrese la contraseña" class="form-control">
+            </div>
+            <div class="form-group text-center">
+                <button type="submit" class="btn btn-primary">Crear Administrador</button>
+            </div>
+        </form>
+        <h2 class="text-dark">Usuarios Actuales</h2>
+        <% if (usuarios.length > 0) { %>
+            <table id="usuariosTable" class="table">
+                <thead class="thead-dark">
+                    <tr>
+                        <th>Usuario</th>
+                        <th>Opciones</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <% usuarios.forEach(usuario => { %>
+                        <tr>
+                            <td><%= usuario.usuario %></td>
+                            <td>
+                                <% if (usuario.usuario !== 'Admin') { %>
+                                    <a href="/editarAdmin/<%= usuario._id %>" class="btn btn-primary">Editar</a>
+                                    <a href="/eliminarAdmin/<%= usuario._id %>" class="btn btn-danger">Eliminar</a>
+                                <% } %>
+                            </td>
+                        </tr>
+                    <% }) %>
+                </tbody>
+            </table>
+        <% } else { %>
+            <p>No hay usuarios registrados.</p>
+        <% } %>
+    </div>
+</main>
+
+<!-- include footer -->
+<%- include('include/_footer') %>
+<!-- /include footer -->
+
+<!-- Incluir jQuery -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<!-- Incluir DataTables -->
+<script src="https://cdn.datatables.net/1.11.4/js/jquery.dataTables.min.js"></script>
+
+<script>
+    $(document).ready(function() {
+        $('#usuariosTable').DataTable();
+    });
+</script>

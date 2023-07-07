@@ -1,0 +1,201 @@
+<!-- include header -->
+<%- include('include/_header') %>
+<!-- /include header -->
+
+<div class="container">
+        <!-- include header -->
+        <%- include('include/_dashboardmenu') %>
+        <!-- /include header -->
+        <div class="form-title text-center">
+            <h2 class="text-dark">Agregar Oferta Académica</h2>
+            <p class="text-muted">Utilice el siguiente formulario para agregar una oferta académica.</p>
+        </div>
+        <form action="/oferta-academica/agregar" method="POST" class="form">
+            <div class="form-group">
+              <label for="institucion" class="text-light">Institución</label>
+              <select id="institucion" name="institucion" required class="form-control">
+                <option value="" disabled selected>Selecciona una institución</option>
+                <% instituciones.forEach(function(institucion) { %>
+                <option value="<%= institucion %>"><%= institucion %></option>
+                <% }) %>
+            </select>
+              
+            </div>
+            <div class="form-group">
+              <label for="carrera" class="text-light">Carrera</label>
+              <input type="text" id="carrera" name="carrera" required placeholder="Ingrese el nombre de la carrera" class="form-control">
+            </div>
+            <div class="form-group">
+                <label for="provincia" class="text-light">Provincia</label>
+                <select id="provincia" name="provincia" required class="form-control">
+                    <option value="" disabled selected>Selecciona una provincia</option>
+                    <option value="Azuay">Azuay</option>
+                    <option value="Bolívar">Bolívar</option>
+                    <option value="Cañar">Cañar</option>
+                    <option value="Carchi">Carchi</option>
+                    <option value="Chimborazo">Chimborazo</option>
+                    <option value="Cotopaxi">Cotopaxi</option>
+                    <option value="El Oro">El Oro</option>
+                    <option value="Esmeraldas">Esmeraldas</option>
+                    <option value="Galápagos">Galápagos</option>
+                    <option value="Guayas">Guayas</option>
+                    <option value="Imbabura">Imbabura</option>
+                    <option value="Loja">Loja</option>
+                    <option value="Los Ríos">Los Ríos</option>
+                    <option value="Manabí">Manabí</option>
+                    <option value="Morona Santiago">Morona Santiago</option>
+                    <option value="Napo">Napo</option>
+                    <option value="Orellana">Orellana</option>
+                    <option value="Pastaza">Pastaza</option>
+                    <option value="Pichincha">Pichincha</option>
+                    <option value="Santa Elena">Santa Elena</option>
+                    <option value="Santo Domingo de los Tsáchilas">Santo Domingo de los Tsáchilas</option>
+                    <option value="Sucumbíos">Sucumbíos</option>
+                    <option value="Tungurahua">Tungurahua</option>
+                    <option value="Zamora Chinchipe">Zamora Chinchipe</option>
+                </select>
+            </div>
+            
+            <div class="form-group">
+                <label for="ciudad" class="text-light">Ciudad</label>
+                <select id="ciudad" name="ciudad" required class="form-control">
+                    <option value="" disabled selected>Selecciona una ciudad</option>
+                </select>
+            </div>
+            <div class="form-group">
+              <label for="jornada" class="text-light">Jornada</label>
+              <select id="jornada" name="jornada" required class="form-control">
+                <option value="">Selecciona una jornada</option>
+                <% jornadas.forEach(function(jornada) { %>
+                    <option value="<%= jornada %>"><%= jornada %></option>
+                  <% }) %>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="modalidad" class="text-light">Modalidad</label>
+              <select id="modalidad" name="modalidad" required class="form-control">
+                <option value="">Selecciona una modalidad</option>
+                <% modalidades.forEach(function(modalidad) { %>
+                    <option value="<%= modalidad %>"><%= modalidad %></option>
+                  <% }) %>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="area" class="text-light">Área</label>
+              <select id="area" name="area" required class="form-control">
+                <option value="">Selecciona un área</option>
+                <% areas.forEach(function(area) { %>
+                    <option value="<%= area %>"><%= area %></option>
+                  <% }) %>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="tipo" class="text-light">Tipo</label>
+              <select id="tipo" name="tipo" required class="form-control">
+                <option value="">Selecciona un tipo</option>
+                <% tipos.forEach(function(tipo) { %>
+                    <option value="<%= tipo %>"><%= tipo %></option>
+                  <% }) %>
+              </select>
+            </div>
+            <div class="form-group">
+                <label for="link" class="text-light">Link</label>
+                <input type="text" id="link" name="link" required placeholder="Ingrese el enlace" class="form-control" readonly>
+              </div>              
+            <div class="form-group text-center">
+              <button type="submit" class="btn btn-primary">Agregar Oferta Académica</button>
+            </div>
+          </form>
+      
+          
+          <script>
+            const provinciaSelect = document.getElementById('provincia');
+            const ciudadSelect = document.getElementById('ciudad');
+                        
+                        // En tu código del lado del cliente
+            function actualizarEnlace() {
+            // Obtener la institución seleccionada
+            var institucionSeleccionada = document.getElementById('institucion').value;
+            
+            // Buscar el enlace correspondiente a la institución seleccionada
+            var links = JSON.parse(document.getElementById('links').textContent);
+            var enlace = links[institucionSeleccionada];
+            
+            // Actualizar el valor del campo de enlace
+            document.getElementById('link').value = enlace;
+            }
+
+            // Agregar controlador de eventos al menú desplegable de instituciones
+            document.getElementById('institucion').addEventListener('change', actualizarEnlace);
+
+
+
+
+                var ciudadesPorProvincia = {
+                                            "Azuay": ["Cuenca", "Gualaceo", "Chordeleg", "Paute", "Sigsig", "Santa Isabel", "Pucará", "Oña", "Girón", "Nabón", "San Fernando", "Santa Ana", "Loja", "Sevilla de Oro", "El Pan", "Guachapala", "Camilo Ponce Enríquez", "Sígsig"],
+                                            "Bolívar": ["Guaranda", "San Miguel", "Chillanes", "Caluma", "Las Naves", "Echeandía", "San José de Chimbo", "Chimbo", "Guanujo", "Simiatug"],
+                                            "Cañar": ["Azogues", "La Troncal", "El Tambo", "Biblián", "Déleg", "Suscal", "El Carmen", "La Mancha", "Azogues", "Cañar"],
+                                            "Carchi": ["Tulcán", "Montúfar", "Mira", "Bolívar", "Espejo", "Mira", "Montúfar", "San Pedro de Huaca"],
+                                            "Chimborazo": ["Riobamba", "Guano", "Alausí", "Chambo", "Chunchi", "Colta", "Cumandá", "Guamote", "Guano", "Pallatanga", "Penipe"],
+                                            "Cotopaxi": ["Latacunga", "La Maná", "Saquisilí", "Salcedo", "Sigchos", "Pangua", "Latacunga", "Pujilí"],
+                                            "El Oro": ["Machala", "Pasaje", "Santa Rosa", "Arenillas", "Atahualpa", "Balsas", "Chilla", "El Guabo", "Huaquillas", "Las Lajas", "Marcabelí", "Piñas", "Portovelo", "Zaruma", "Santa Rosa"],
+                                            "Esmeraldas": ["Esmeraldas", "Atacames", "Muisne", "Rioverde", "Quinindé", "San Lorenzo", "Eloy Alfaro"],
+                                            "Galápagos": ["Puerto Baquerizo Moreno", "Puerto Ayora", "Isla Isabela", "Santa Cruz", "San Cristóbal"],
+                                            "Guayas": ["Guayaquil", "Durán", "Samborondón", "Playas", "Daule", "Nobol", "Isidro Ayora", "El Empalme", "Balzar", "Colimes", "Palestina", "Pedro Carbo", "Salitre", "Yaguachi", "Lomas de Sargentillo", "Milagro", "Naranjal", "Naranjito", "Guayaquil", "Durán", "Samborondón", "Playas"],
+                                            "Imbabura": ["Ibarra", "Otavalo", "Cotacachi", "Antonio Ante", "Pimampiro", "Urcuquí", "Ibarra", "Otavalo", "Cotacachi"],
+                                            "Loja": ["Loja", "Catamayo", "Zapotillo", "Calvas", "Gonzanamá", "Espíndola", "Macará", "Paltas", "Puyango", "Saraguro", "Sozoranga", "Catamayo", "Chaguarpamba", "Olmedo", "Puyango", "Quilanga"],
+                                            "Los Ríos": ["Babahoyo", "Quevedo", "Ventanas", "Buena Fe", "Mocache", "Montalvo", "Palenque", "Puebloviejo", "Quinsaloma", "Valencia", "Urdaneta", "Babahoyo", "Montalvo", "Palenque", "Quevedo", "Valencia", "Ventanas", "Vinces"],
+                                            "Manabí": ["Portoviejo", "Manta", "Jipijapa", "Chone", "El Carmen", "Flavio Alfaro", "Jama", "Jaramijó", "Junín", "Manta", "Montecristi", "Paján", "Pedernales", "Pichincha", "Rocafuerte", "Santa Ana", "Sucre", "Tosagua", "24 de Mayo", "Olmedo"],
+                                            "Morona Santiago": ["Macas", "Gualaquiza", "Sucúa", "Logroño", "Morona", "Palora", "Santiago", "San Juan Bosco", "Huamboya", "Limón Indanza", "Gualaquiza", "Morona", "Pablo Sexto", "Taisha", "Sucúa", "Santiago"],
+                                            "Napo": ["Tena", "El Chaco", "Quijos", "Archidona", "Carlos Julio Arosemena Tola", "El Chaco", "Quijos", "Tena"],
+                                            "Orellana": ["Francisco de Orellana", "La Joya de los Sachas", "Puerto Francisco de Orellana", "Aguarico", "Gonzalo Pizarro", "La Joya de los Sachas", "Lago Agrio", "Loreto", "Santa María de Huachipires", "Tarapoa"],
+                                            "Pastaza": ["Puyo", "Santa Clara", "Mera", "Arajuno", "Mera", "Puyo", "Santa Clara"],
+                                            "Pichincha": ["Quito", "Sangolquí", "Cayambe", "Pedro Moncayo", "Mejía", "Pedro Vicente Maldonado", "Puellaro", "Quito", "Rumiñahui", "San Miguel de los Bancos", "Cayambe", "Pedro Moncayo"],
+                                            "Santa Elena": ["Santa Elena", "Salinas", "La Libertad", "La Libertad", "Salinas", "Santa Elena"],
+                                            "Santo Domingo de los Tsáchilas": ["Santo Domingo", "La Concordia", "Santo Domingo de los Colorados", "La Concordia", "Santo Domingo", "Santo Domingo de los Colorados"],
+                                            "Sucumbíos": ["Lago Agrio", "Shushufindi", "Nueva Loja", "Cuyabeno", "Gonzalo Pizarro", "Lago Agrio", "Putumayo", "Shushufindi", "Sucumbíos", "Nueva Loja"],
+                                            "Tungurahua": ["Ambato", "Banos", "Pelileo", "Cevallos", "Mocha", "Patate", "Pillaro", "Quero", "San Pedro de Pelileo", "Tisaleo", "Ambato", "Banos", "Pelileo", "Quero"],
+                                            "Zamora Chinchipe": ["Zamora", "Yantzaza", "Centinela del Cóndor", "Chinchipe", "Nangaritza", "Yacuambi", "Yantzaza", "Zamora", "El Pangui", "Paquisha", "Centinela del Cóndor"]
+                                            };
+
+
+                // Función para actualizar las ciudades según la provincia seleccionada
+                function actualizarCiudades() {
+                    var provinciaSeleccionada = provinciaSelect.value;
+                    var ciudades = ciudadesPorProvincia[provinciaSeleccionada];
+
+                    // Elimina las opciones anteriores
+                    while (ciudadSelect.firstChild) {
+                        ciudadSelect.removeChild(ciudadSelect.firstChild);
+                    }
+
+                    // Agrega las nuevas opciones
+                    for (var i = 0; i < ciudades.length; i++) {
+                        var ciudadOption = document.createElement("option");
+                        ciudadOption.value = ciudades[i];
+                        ciudadOption.text = ciudades[i];
+                        ciudadSelect.appendChild(ciudadOption);
+                    }
+                }
+
+                // Escucha el evento de cambio en el campo de provincia
+                provinciaSelect.addEventListener("change", actualizarCiudades);
+          </script>
+             
+
+ <!--    <h2 class="text-dark mt-4">Agregar Oferta Académica desde Excel</h2>
+        <form action="/oferta-academica/agregar-excel" method="POST" enctype="multipart/form-data" class="form">
+            <div class="form-group">
+                <label for="excelFile" class="text-light">Archivo Excel</label>
+                <input type="file" id="excelFile" name="excelFile" required class="form-control-file">
+            </div>
+            <div class="form-group text-center">
+                <button type="submit" class="btn btn-primary">Agregar Oferta Académica desde Excel</button>
+            </div>
+        </form>-->
+</div>
+
+<script id="links" type="application/json"><%- links %></script>
+<!-- include footer -->
+<%- include('include/_footer') %>
+<!-- /include footer -->

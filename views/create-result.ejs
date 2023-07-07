@@ -1,0 +1,117 @@
+<!-- include header -->
+<%- include('include/_header') %>
+<!-- /include header -->
+<div class="container">
+  <%- include('include/_dashboardmenu') %>
+
+  <form action="/results" method="POST" hidden>
+    <div class="form-group">
+      <label for="descripcion">Descripción:</label>
+      <textarea class="form-control" id="descripcion" name="descripcion" required></textarea>
+    </div>
+    
+    <div class="form-group">
+      <label for="universidad1">Universidad 1:</label>
+      <select class="form-control" id="universidad1" name="universidad1" required>
+        <option value="" selected disabled>Seleccione una universidad</option>
+        <% ofertaAcademicas.forEach(function(ofertaAcademica) { %>
+          <option value="<%= ofertaAcademica._id %>"><%= ofertaAcademica.institucion %> - <%= ofertaAcademica.carrera %> - <%= ofertaAcademica.provincia %> - <%= ofertaAcademica.ciudad %></option>
+        <% }) %>
+      </select>
+    </div>
+    
+    <div class="form-group">
+      <label for="universidad2">Universidad 2:</label>
+      <select class="form-control" id="universidad2" name="universidad2" required>
+        <option value="" selected disabled>Seleccione una universidad</option>
+        <% ofertaAcademicas.forEach(function(ofertaAcademica) { %>
+          <option value="<%= ofertaAcademica._id %>"><%= ofertaAcademica.institucion %> - <%= ofertaAcademica.carrera %> - <%= ofertaAcademica.provincia %> - <%= ofertaAcademica.ciudad %></option>
+        <% }) %>
+      </select>
+    </div>
+    
+    <div class="form-group">
+      <label for="universidad3">Universidad 3:</label>
+      <select class="form-control" id="universidad3" name="universidad3" required>
+        <option value="" selected disabled>Seleccione una universidad</option>
+        <% ofertaAcademicas.forEach(function(ofertaAcademica) { %>
+          <option value="<%= ofertaAcademica._id %>"><%= ofertaAcademica.institucion %> - <%= ofertaAcademica.carrera %> - <%= ofertaAcademica.provincia %> - <%= ofertaAcademica.ciudad %></option>
+        <% }) %>
+      </select>
+    </div>
+    
+    <div class="form-group">
+      <label for="universidad4">Universidad 4:</label>
+      <select class="form-control" id="universidad4" name="universidad4" required>
+        <option value="" selected disabled>Seleccione una universidad</option>
+        <% ofertaAcademicas.forEach(function(ofertaAcademica) { %>
+          <option value="<%= ofertaAcademica._id %>"><%= ofertaAcademica.institucion %> - <%= ofertaAcademica.carrera %> - <%= ofertaAcademica.provincia %> - <%= ofertaAcademica.ciudad %></option>
+        <% }) %>
+      </select>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Guardar</button>
+  </form>
+  
+  <br>
+
+  <table class="table" id="resultTable">
+    <thead>
+      <tr>
+        <th>Descripción</th>
+        <th>Universidad 1</th>
+        <th>Universidad 2</th>
+        <th>Universidad 3</th>
+        <th>Universidad 4</th>
+        <th>Acciones</th>
+      </tr>
+    </thead>
+    <tbody>
+      <% results.forEach(function(result) { %>
+        <tr>
+          <td><%= result.descripcion %></td>
+          <% result.universidades.forEach(function(universidad) { %>
+            <td><%= universidad.institucion %> - <%= universidad.carrera %> - <%= universidad.ciudad %> - <%= universidad.link %></td>
+          <% }) %>
+          <td>
+            <button class="btn btn-sm btn-primary" onclick="editar('<%= result._id %>')">Editar</button>
+            <button hidden class="btn btn-sm btn-danger" onclick="eliminar('<%= result._id %>')">Eliminar</button>
+          </td>
+        </tr>
+      <% }) %>
+    </tbody>
+  </table>
+  
+</div>
+
+<script>
+  function editar(resultId) {
+    // Redirigir a la página de edición del resultado con el ID correspondiente
+    window.location.href = '/results/' + resultId + '/edit';
+  }
+
+  function eliminar(resultId) {
+    // Realizar una solicitud AJAX o enviar un formulario para eliminar el resultado con el ID correspondiente
+    // Puedes usar fetch o axios para enviar una solicitud DELETE al servidor
+    // Por ejemplo:
+    fetch('/results/' + resultId, { method: 'DELETE' })
+      .then(response => {
+        if (response.ok) {
+          // El resultado se eliminó correctamente, puedes recargar la página o actualizar la lista de resultados
+          location.reload();
+        } else {
+          // Manejar el caso de error en la eliminación del resultado
+          console.log('Error al eliminar el resultado');
+        }
+      })
+      .catch(error => {
+        // Manejar errores de conexión u otros errores
+        console.log(error);
+      });
+  }
+</script>
+
+
+<!-- include footer -->
+<%- include('include/_footer') %>
+<!-- /include footer -->

@@ -1,0 +1,48 @@
+<!-- include header -->
+<%- include('include/_header') %>
+<!-- /include header -->
+
+<main>
+
+  <section class="intro">
+    <h2>¿Qué es Test Vocacional?</h2>
+    <p>Test Vocacional es una prueba vocacional desarrollada por un estudiante de Ingeniería en Tecnologías de la UTPL. Su objetivo es ayudar a los jóvenes del Ecuador a encontrar el camino hacia la profesión que más les conviene.</p>
+    <p>Con Test Vocacional, podrás descubrir tus fortalezas, habilidades y preferencias, lo que te permitirá conocer más sobre las diversas carreras que existen en nuestro país y tomar una decisión informada acerca de tu futuro profesional.</p>
+  </section>
+
+  <section class="contacto">
+    <h2>¡Contáctanos!</h2>
+    <p>Estamos siempre dispuestos a ayudarte y responder a todas tus preguntas sobre nuestro servicio de evaluación vocacional Test Vocacional. No dudes en contactarnos si tienes cualquier duda o comentario, estaremos encantados de responderte lo antes posible. ¡Gracias por confiar en nosotros!</p>
+    <div class="chat-container">
+      <div class="chat-header">
+        <img src="https://img.icons8.com/color/48/000000/whatsapp.png"/>
+        <p>Chatea con nosotros</p>
+      </div>
+      <div class="chat-body">
+        <textarea id="whatsapp-message" placeholder="Escribe tu mensaje aquí"></textarea>
+        <button id="whatsapp-button">Enviar</button>
+      </div>
+    </div>
+  </section>
+  
+  <script>
+    // Obtener el elemento del botón de WhatsApp y el cuadro de texto del mensaje
+    const whatsappButton = document.getElementById('whatsapp-button');
+    const whatsappMessage = document.getElementById('whatsapp-message');
+  
+    // Agregar un evento clic al botón de WhatsApp
+    whatsappButton.addEventListener('click', function() {
+      // Obtener el valor del cuadro de texto del mensaje y codificarlo
+      const message = encodeURIComponent(whatsappMessage.value);
+      // Construir la URL del enlace de WhatsApp con el mensaje codificado
+      const url = `https://wa.me/593991558308?text=${message}`;
+      // Abrir la URL en una nueva pestaña
+      window.open(url, '_blank');
+    });
+  </script>
+  
+</main>
+
+<!-- include footer -->
+<%- include('include/_footer') %>
+<!-- /include footer -->

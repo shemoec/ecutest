@@ -1,0 +1,50 @@
+<!-- include header -->
+<%- include('include/_header') %>
+<!-- /include header -->
+
+<!-- Incluir estilos CSS de Data Tables -->
+<link rel="stylesheet" href="https://cdn.datatables.net/1.11.4/css/jquery.dataTables.min.css">
+
+<!-- Main Site -->
+    <div class="container">
+        <!-- include header -->
+        <%- include('include/_dashboardmenu') %>
+        <!-- /include header -->
+        <!-- form handling -->
+        <form action="/" method="POST">
+            <table id="preguntasTable" class="table">
+                <thead class="thead-dark">
+                    <tr>
+                        <th>ID</th>
+                        <th>Pregunta</th>
+                        <th>Respuesta A</th>
+                        <th>Respuesta B</th>
+                        <th>Respuesta C</th>
+                        <th>Respuesta D</th>
+                        <th>Respuesta E</th>
+                        <th>Acción</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <%- include('include/_show') %>
+                </tbody>
+            </table>
+        </form>
+    </div>
+
+
+<!-- include footer -->
+<%- include('include/_footer') %>
+<!-- /include footer -->
+
+<!-- Incluir jQuery -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<!-- Incluir DataTables -->
+<script src="https://cdn.datatables.net/1.11.4/js/jquery.dataTables.min.js"></script>
+
+<script>
+    $(document).ready(function() {
+        $('#preguntasTable').DataTable();
+    });
+</script>
+

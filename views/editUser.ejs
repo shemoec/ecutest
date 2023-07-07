@@ -1,0 +1,43 @@
+<!-- include header -->
+<%- include('include/_header') %>
+<!-- /include header -->
+
+<main id="site-main">
+  <div class="container">
+    <!-- include header -->
+    <%- include('include/_dashboardmenu') %>
+    <!-- /include header -->
+
+    <h2>Editar Usuario</h2>
+
+    <form action="/edit-user/<%= user._id %>" method="POST">
+      <label for="name">Nombre:</label>
+      <input type="text" id="name" name="name" value="<%= user.name %>" required>
+
+      <label for="age">Edad:</label>
+      <input type="number" id="age" name="age" value="<%= user.age %>" required>
+
+      <label for="email">Correo electrónico:</label>
+      <input type="email" id="email" name="email" value="<%= user.email %>" required>
+
+      <label for="gender">Género:</label>
+      <select id="gender" name="gender" required>
+        <option value="Masculino" <%= user.gender === 'male' ? 'selected' : '' %>>Masculino</option>
+        <option value="Femenino" <%= user.gender === 'female' ? 'selected' : '' %>>Femenino</option>
+        <option value="other" <%= user.gender === 'other' ? 'selected' : '' %>>Otro</option>
+      </select>
+
+      <label for="province">Localidad:</label>
+      <input type="text" id="province" name="province" value="<%= user.province %>" required>
+
+      <label for="location">Localidad:</label>
+      <input type="text" id="location" name="location" value="<%= user.location %>" required>
+
+      <button type="submit">Guardar cambios</button>
+    </form>
+  </div>
+</main>
+
+<!-- include footer -->
+<%- include('include/_footer') %>
+<!-- /include footer -->

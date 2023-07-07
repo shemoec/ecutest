@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Resultado del Test</title>
+    <style>
+      /* Estilos del certificado */
+      body {
+        background-color: #fff;
+        color: #555;
+        font-size: 14px;
+        font-family: Arial, sans-serif;
+      }
+
+      .container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+        border: 1px solid #ccc;
+      }
+
+      .title {
+        font-size: 24px;
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 30px;
+      }
+
+      .center {
+        text-align: center;
+      }
+      .subtitle {
+        font-size: 18px;
+        font-weight: bold;
+        margin-bottom: 10px;
+        text-align: center;
+      }
+
+      .result {
+        font-size: 20px;
+        font-weight: bold;
+        margin-bottom: 30px;
+        text-align: center;
+      }
+
+      .button {
+        display: block;
+        margin: 30px auto 0;
+        width: 150px;
+        padding: 10px;
+        text-align: center;
+        background-color: #4CAF50;
+        color: #fff;
+        text-decoration: none;
+        font-size: 16px;
+        font-weight: bold;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+
+      @media print {
+        .download-buttons {
+        display: none;
+      }
+        .table {
+          display: none;
+        }
+      }
+      .area-button {
+        display: block;
+        margin: 10px auto;
+        padding: 10px 20px;
+        font-size: 18px;
+        border: none;
+        border-radius: 5px;
+        color: white;
+        background-color: #4CAF50;
+        cursor: pointer;
+      }
+
+      .area-button:hover {
+        background-color: #3E8E41;
+      }
+
+      table {
+        margin: 0 auto;
+        border-collapse: collapse;
+        width: 80%;
+      }
+
+      th, td {
+        text-align: left;
+        padding: 8px;
+      }
+
+      tr:nth-child(even) {
+        background-color: #f2f2f2;
+      }
+      .logo-2 {
+      display: block;
+      margin: 10px auto;
+      transform: scale(0.9);
+      width: 300px;
+      }
+
+
+</style>
+
+  </head>
+  <body>
+
+    <div class="container">            
+      <img src="/img/logo-color.png" alt="Test Vocacional" class="logo-2">
+      <h1 class="title">RESULTADO DEL TEST VOCACIONAL</h1>
+      <h3 class="title">DE: <%= name %></h3>
+      <p class="center">HA COMPLETADO EL TEST CON EL SIGUIENTE RESULTADO PRINCIPAL:</p>
+      <p class="result"><%= result %></p>
+  
+      <h2 class="subtitle">Carreras Afines</h2>
+      <tbody>
+        <% areas.forEach(function(area) { %>
+          <button class="area-button" onclick="toggleTable('<%= area.area %>')"><%= area.area %></button>
+          <% if (area.universities && area.universities.length > 0) { %>
+            <table class="table" id="<%= area.area %>" style="display: none;">
+              <thead>
+                <tr>
+                  <th>Institución</th>
+                  <th>Carrera</th>
+                  <th>Ciudad</th>
+                  <th>Link</th>
+                </tr>
+              </thead>
+              <tbody>
+                <% area.universities.forEach(function(universidad) { %>
+                  <tr>
+                    <td><%= universidad.institucion %></td>
+                    <td><%= universidad.carrera %></td>
+                    <td><%= universidad.ciudad %></td>
+                    <td><a href="<%= universidad.link %>"><%= universidad.link %></a></td>
+                  </tr>
+                <% }) %>
+              </tbody>
+            </table>
+          <% } else { %>
+            <p>No universities found for this area.</p>
+            <!-- Add debugging code here -->
+            <pre><%= JSON.stringify(area, null, 2) %></pre>
+          <% } %>
+        <% }) %>
+        
+        <script>
+          function toggleTable(area) {
+            var table = document.getElementById(area);
+            if (table.style.display === "none") {
+              table.style.display = "table";
+            } else {
+              table.style.display = "none";
+            }
+          }
+        </script>
+        
+        
+
+
+      
+      <div class="signature" hidden>
+        <h4 style="font-family: cursive; font-size: 24px; font-weight: bold; text-align: center;">Victor Sangines</h4>
+        <h4 style="font-weight: bold; text-align: center;">Test Vocacional UTPL</h4>
+      </div>
+  
+      <a href="/download-pdf?name=<%= name %>&result=<%= result %>" class="button download-buttons" download HIDDEN>Descargar Certificado</a>
+    </div>
+  </body>
+  
+
+  <script>
+    // Ocultar las preguntas del test
+    document.getElementById("test-questions").style.display = "none";
+  </script>
+</html>

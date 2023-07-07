@@ -1,0 +1,61 @@
+
+<!-- include header -->
+<%- include('include/_header') %>
+
+
+<!-- /include header -->
+
+  <!-- Main Site -->
+  <main id="site-main">
+    <div class="container">
+        <!-- include header -->
+        <%- include('include/_dashboardmenu') %>
+        <!-- /include header -->
+        <div class="form-title text-center">
+            <h2 class="text-dark">Actualizar pregunta</h2>
+            <span class="text-dark">Utilice el siguiente formulario para actualizar una pregunta</span>
+        </div>
+    <!-- Formulario de actualización de preguntas -->
+     <!-- Manejo del formulario -->
+     <form method="POST" id="update_question">
+      <div class="new_question">
+        <div class="form-group">
+          <label for="question" class="text-light">Pregunta</label>
+          <input type="hidden" name="id" value="<%= question._id %>">
+          <input type="text" name="question" value="<%= question.question %>" placeholder="Ingrese la pregunta aquí">
+        </div>
+        <div class="form-group">
+          <label for="answer1" class="text-light">Respuesta 1</label>
+          <input type="text" name="answers[0]" value="<%= question.answers[0] %>" placeholder="Ingrese la respuesta 1 aquí">
+        </div>
+        <div class="form-group">
+          <label for="answer2" class="text-light">Respuesta 2</label>
+          <input type="text" name="answers[1]" value="<%= question.answers[1] %>" placeholder="Ingrese la respuesta 2 aquí">
+        </div>
+        <div class="form-group">
+          <label for="answer3" class="text-light">Respuesta 3</label>
+          <input type="text" name="answers[2]" value="<%= question.answers[2] %>" placeholder="Ingrese la respuesta 3 aquí">
+        </div>
+        <div class="form-group">
+          <label for="answer4" class="text-light">Respuesta 4</label>
+          <input type="text" name="answers[3]" value="<%= question.answers[3] %>" placeholder="Ingrese la respuesta 4 aquí">
+        </div>
+        <div class="form-group">
+          <label for="answer5" class="text-light">Respuesta 5</label>
+          <input type="text" name="answers[4]" value="<%= question.answers[4] %>" placeholder="Ingrese la respuesta 5 aquí">
+        </div>
+        <div class="form-group">
+          <button type="submit" class="btn text-dark update">Guardar</button>
+        </div>
+      </div>
+    </form>
+ 
+</div>
+
+</main>
+<!-- /Main Site -->
+
+
+<!-- include footer -->
+<%- include('include/_footer') %>
+<!-- /include footer -->

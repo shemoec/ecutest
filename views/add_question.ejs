@@ -1,0 +1,53 @@
+
+<!-- include header -->
+<%- include('include/_header') %>
+<!-- /include header -->
+
+  <!-- Main Site -->
+<!-- Sitio principal -->
+
+<div class="container">
+        <!-- include header -->
+        <%- include('include/_dashboardmenu') %>
+        <!-- /include header -->
+        <div class="form-title text-center">
+            <h2 class="text-dark">Nueva Pregunta</h2>
+            <span class="text-dark">Usa el siguiente formulario para crear una nueva pregunta</span>
+        </div>
+
+     <!-- formulario para agregar pregunta -->
+    <form action="/api/questions" method="POST" class="form">
+        <div class="form-group">
+            <label for="question">Pregunta:</label>
+            <input type="text" id="question" name="question" class="form-control" required>
+        </div>
+        <div class="form-group">
+            <label for="answer1">Respuesta 1:</label>
+            <input type="text" id="answer1" name="answer1" class="form-control" required>
+        </div>
+        <div class="form-group">
+            <label for="answer2">Respuesta 2:</label>
+            <input type="text" id="answer2" name="answer2" class="form-control" required>
+        </div>
+        <div class="form-group">
+            <label for="answer3">Respuesta 3:</label>
+            <input type="text" id="answer3" name="answer3" class="form-control" required>
+        </div>
+        <div class="form-group">
+            <label for="answer4">Respuesta 4:</label>
+            <input type="text" id="answer4" name="answer4" class="form-control" required>
+        </div>
+        <div class="form-group">
+            <label for="answer5">Respuesta 5:</label>
+            <input type="text" id="answer5" name="answer5" class="form-control" required>
+        </div>
+        <div class="form-group text-center">
+            <button type="submit" class="btn btn-primary">Enviar</button>
+        </div>
+    </form>
+</div>
+<!-- /Main Site -->
+
+<!-- include footer -->
+<%- include('include/_footer') %>
+<!-- /include footer -->
