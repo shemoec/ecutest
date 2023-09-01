@@ -1,0 +1,375 @@
+[{
+  "_id": {
+    "$oid": "64543acdb1e3c66414081bbf"
+  },
+  "answers": [
+    "a) Finanzas personales",
+    "b) Tecnología de los robots",
+    "c) Auxilios médicos",
+    "d) Reciclaje",
+    "e) Piano o guitarra"
+  ],
+  "question": "1.- Si pudieras tener una actividad extra durante las tardes, elegiría un curso de:",
+  "__v": 0,
+  "order": 7
+},
+{
+  "_id": {
+    "$oid": "64543b09b1e3c66414081bc0"
+  },
+  "answers": [
+    "a) Español, geografía, ciencias sociales",
+    "b) Física y matemáticas",
+    "c) Filosofía, historia o ética",
+    "d) Biología y química",
+    "e) Actividades artísticas"
+  ],
+  "question": "2.- Mi asignatura escolar favorita es:",
+  "__v": 0,
+  "order": 6
+},
+{
+  "_id": {
+    "$oid": "64543bb2b1e3c66414081bc1"
+  },
+  "answers": [
+    "a) Los emprendedores convertidos en grandes empresarios",
+    "b) Los fundadores de redes para comunicaciones digitales",
+    "c) Enfermeras y doctores",
+    "d) Los creadores de nuevos medicamentos",
+    "e) Artistas en diversas gamas (actrices, cantantes, etc.)"
+  ],
+  "question": "3.- Le tengo admiración a:",
+  "__v": 0,
+  "order": 2
+},
+{
+  "_id": {
+    "$oid": "64543bdab1e3c66414081bc2"
+  },
+  "answers": [
+    "a) Político",
+    "b) Ingeniero o arquitecto",
+    "c) Maestro",
+    "d) Científico marino",
+    "e) Dibujante"
+  ],
+  "question": "4.- Si fuera auxiliar de alguna persona, sería:",
+  "__v": 0,
+  "order": 3
+},
+{
+  "_id": {
+    "$oid": "64543bfcb1e3c66414081bc3"
+  },
+  "answers": [
+    "a) Noticias actuales sobre economía y política",
+    "b) Avances tecnológicos recientes",
+    "c) Problemáticas de personas para darles solución",
+    "d) Documentales sobre plantas y animales",
+    " e) Caricaturas y videos"
+  ],
+  "question": "5.- Si estoy viendo la televisión, me gustan los programas de:",
+  "__v": 0,
+  "order": 1
+},
+{
+  "_id": {
+    "$oid": "64543c23b1e3c66414081bc4"
+  },
+  "answers": [
+    "a) Laborando con fórmulas y cantidades numéricas",
+    "b) Laborando con maquinaria y diversos materiales",
+    "c) Laborando con personas",
+    "d) Laborando con pequeños organismos y diversas sustancias",
+    "e) Laborando con pinturas e instrumentos musicales"
+  ],
+  "question": "6.- Laborando en un futuro, me visualizo:",
+  "__v": 0,
+  "order": 5
+},
+{
+  "_id": {
+    "$oid": "64543c42b1e3c66414081bc5"
+  },
+  "answers": [
+    "a) Es encargado de la logística que un equipo va a llevar a cabo",
+    "b) Es creador de un producto que sea de utilidad para la vida cotidiana",
+    "c) Es una persona que ofrece su tiempo para ayudar y servir a otros",
+    "d) Es capaz de estudiar a los seres vivos y su naturaleza",
+    "e) Es creador de obras musicales y artísticas que inspiran su entorno."
+  ],
+  "question": "7.- Alguien que podría tener mi admiración y respeto sería alguien que:",
+  "__v": 0,
+  "order": 4
+},
+{
+  "_id": {
+    "$oid": "64543c6cb1e3c66414081bc6"
+  },
+  "answers": [
+    "a) Dirigiendo al personal, cotizando presupuestos y recabando el dinero",
+    "b) Revisando el funcionamiento adecuado del equipo de sonido",
+    "c) Atendiendo a los invitados del evento",
+    "d) Hacer un estudio de las instalaciones para su uso y limpieza adecuada",
+    "e) Preparar el diseño ambiental del lugar del evento y el diseño de las propagandas"
+  ],
+  "question": "8.- Si llego a tener un evento, mis tareas a realizar son:",
+  "__v": 0,
+  "order": 8
+},
+{
+  "_id": {
+    "$oid": "64543c9eb1e3c66414081bc7"
+  },
+  "answers": [
+    "a) Llevar a cabo la contabilidad",
+    "b) Llevar la supervisión de las tecnologías que se requieren",
+    "c) Darles una cálida bienvenida a los clientes",
+    "d) Revisar que la calidad de los alimentos sea excelente",
+    "e) Llevar a cabo el diseño ambiental y la imagen tanto interna como externa del local"
+  ],
+  "question": "9.- Si se iniciara un nuevo negocio, mi aportación sería:",
+  "__v": 0,
+  "order": 9
+},
+{
+  "_id": {
+    "$oid": "64543cc5b1e3c66414081bc8"
+  },
+  "answers": [
+    "a) Política, derecho y economía",
+    "b) Herramientas, instrumentos y tecnología",
+    "c) Sociología, humanidades y psicología",
+    "d) Funciones del cuerpo y cerebro humano",
+    "e) Danza, diseño, pintura, escultura"
+  ],
+  "question": "10.- Si leo un libro o una revista, trata de:",
+  "__v": 0,
+  "order": 10
+},
+{
+  "_id": {
+    "$oid": "64543cedb1e3c66414081bc9"
+  },
+  "answers": [
+    "a) Administración y contabilidad",
+    "b) Investigaciones",
+    " c) Recursos humanos",
+    "d) Higiene y salud",
+    "e) Diseño ambiental y de muebles"
+  ],
+  "question": "11.- Si laborara para una gran empresa, me sería grato el departamento de:",
+  "__v": 0,
+  "order": 11
+},
+{
+  "_id": {
+    "$oid": "64543d1bb1e3c66414081bca"
+  },
+  "answers": [
+    "a) El presidente",
+    "b) Ingeniero de un edificio inteligente",
+    "c) Reportero de noticias",
+    "d) Médico de un hospital que se encuentra en urgencias",
+    "e) Fotógrafo de una revista"
+  ],
+  "question": "12.- Si tuviera una plática interesante sería con:",
+  "__v": 0,
+  "order": 12
+},
+{
+  "_id": {
+    "$oid": "64543d49b1e3c66414081bcb"
+  },
+  "answers": [
+    "a) Cosas que he comprado con mis ingresos",
+    "b) Aparatos electrónicos y de alta tecnología",
+    "c) Recuerdos que tienen gran valor sentimental",
+    "d) Un pez, una planta y algunos suvenires de lugares que he visitado",
+    "e) Fotografías, cuadros y carteles con imágenes llamativas"
+  ],
+  "question": "13.- Si alguien visitara mi habitación encontraría:",
+  "__v": 0,
+  "order": 13
+},
+{
+  "_id": {
+    "$oid": "64543d75b1e3c66414081bcc"
+  },
+  "answers": [
+    "a) Debates políticos y economía",
+    "b) Alta tecnología e inventos científicos innovadores",
+    "c) Metodologías educativas, librerías y centros de idiomas",
+    "d) Fauna y flora de animales exóticos y desconocidos",
+    "e) Artes, música y pintura"
+  ],
+  "question": "14.- Cuando voy a una exposición, la que me llama la atención trata de:",
+  "__v": 0,
+  "order": 14
+},
+{
+  "_id": {
+    "$oid": "64543d9eb1e3c66414081bcd"
+  },
+  "answers": [
+    "a) Emprender un negocio que haga altos niveles de ganancias",
+    "b) Formar parte del equipo que emprenda una construcción moderna",
+    "c) Descubrir la cura para padecimientos y enfermedades de nuestra actualidad",
+    "d) Ser el creador de nuevas especies tanto de animales como de plantas",
+    "e) Ser un bailarín profesional y un gran artista"
+  ],
+  "question": "15.- Me sentiría plano y feliz si pudiera:",
+  "__v": 0,
+  "order": 15
+},
+{
+  "_id": {
+    "$oid": "64543dc6b1e3c66414081bce"
+  },
+  "answers": [
+    "a) La casa de bolsa",
+    "b) Una planta automotriz",
+    "c) Una institución de educación especial",
+    "d) Una gran laboratorio de experimentos para vacunas",
+    "e) Un estudio de grabación y video"
+  ],
+  "question": "16.- Si fuera de visita a algún lugar sería:",
+  "__v": 0,
+  "order": 16
+},
+{
+  "_id": {
+    "$oid": "64543df7b1e3c66414081bcf"
+  },
+  "answers": [
+    "a) Economía en el país",
+    "b) Altas tecnologías",
+    "c) Tipos de terapias psicológicas",
+    "d) Nuevos descubrimientos del ADN",
+    "e) Afinidad por la música y el arte"
+  ],
+  "question": "17.- Si hablo de algún tema, hablaría de:",
+  "__v": 0,
+  "order": 17
+},
+{
+  "_id": {
+    "$oid": "64543e20b1e3c66414081bd0"
+  },
+  "answers": [
+    "a) Crear reuniones o eventos",
+    "b) Conocer sobre algún tipo de software nuevo",
+    "c) Ayudar a que terminen pronto su tarea mis sobrinos o hermanos pequeños",
+    "d) Ir de visita a algún zoológico o jardín",
+    "e) Tocar algún instrumento o practicar alguna danza"
+  ],
+  "question": "18.- En mi tiempo libre me gusta:",
+  "__v": 0,
+  "order": 18
+},
+{
+  "_id": {
+    "$oid": "64543e41b1e3c66414081bd1"
+  },
+  "answers": [
+    "a) Mi capacidad para concluir negocios",
+    "b) Mis aportaciones a la tecnología",
+    "c) Implementar un programa que mejore la calidad de vida de la gente de pocos recursos",
+    "d) Mis descubrimientos médicos",
+    "e) Mis obras musicales o esculturas"
+  ],
+  "question": "19.- Si fuera reconocido sería por:",
+  "__v": 0,
+  "order": 19
+},
+{
+  "_id": {
+    "$oid": "64543e5fb1e3c66414081bd2"
+  },
+  "answers": [
+    "a) Cómo hacer dinero",
+    "b) Cómo son las casas del 2040",
+    " c) Cómo ayudar a resolver problemas personales",
+    "d) Cómo podría hacer un viaje de campamento",
+    "e) Cómo hacer animaciones digitales y de video"
+  ],
+  "question": "20.- Si me imagino algo, es sobre:",
+  "__v": 0,
+  "order": 20
+},
+{
+  "_id": {
+    "$oid": "64543e89b1e3c66414081bd3"
+  },
+  "answers": [
+    "a) Político modelo",
+    "b) Gran arquitecto",
+    "c) Benefactor reconocido",
+    "d) Científico renombrado",
+    "e) Artista famoso"
+  ],
+  "question": "21.- Sentiría orgullo si fuera un:",
+  "__v": 0,
+  "order": 21
+},
+{
+  "_id": {
+    "$oid": "64543eb0b1e3c66414081bd4"
+  },
+  "answers": [
+    "a) Un despacho",
+    "b) Una fábrica",
+    "c) Un colegio",
+    "d) En las montañas",
+    "e) En el teatro"
+  ],
+  "question": "22.- Si trabajara medio tiempo, trabajaría en:",
+  "__v": 0,
+  "order": 22
+},
+{
+  "_id": {
+    "$oid": "64543ed5b1e3c66414081bd5"
+  },
+  "answers": [
+    "a) Si lo organizo con gráficas y esquemas",
+    "b) Si trato de tocar objetos",
+    "c) Si hablo respecto al tema con varias personas",
+    "d) Si realizo un análisis profundo de toda la información",
+    "e) Si utilizo sonidos y movimientos"
+  ],
+  "question": "23.- Si aprendo algo nuevo, lo recuerdo:",
+  "__v": 0,
+  "order": 23
+},
+{
+  "_id": {
+    "$oid": "64543ef5b1e3c66414081bd6"
+  },
+  "answers": [
+    "a) Organizando las reuniones y fiestas",
+    "b) Reparando algún aparato electrónico",
+    "c) Ayudando a la gente a que resuelvan situaciones personales",
+    " d) Procurando el bienestar de un animal o una planta",
+    "e) Pintando, haciendo dibujitos, tocando algún instrumento"
+  ],
+  "question": "24.- Casi siempre estoy:",
+  "__v": 0,
+  "order": 24
+},
+{
+  "_id": {
+    "$oid": "64543f16b1e3c66414081bd7"
+  },
+  "answers": [
+    "a) Ser responsable de las cuestiones financieras",
+    "b) Conocer de la diversidad de la vegetación que crece en mi escuela",
+    "c) Resolver algunas problemáticas personales o familiares",
+    "d) Conocer enfermedades comunes",
+    "e) Ser planificador de conciertos o eventos"
+  ],
+  "question": "25.- Tengo una gran inclinación a:",
+  "__v": 0,
+  "order": 26
+}]

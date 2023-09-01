@@ -1,0 +1,40 @@
+[{
+  "_id": {
+    "$oid": "64e593f131a2337424db2f3f"
+  },
+  "area": "Área de ciencias económicas y empresariales",
+  "descripcion": "Tus actividades van encaminadas hacia los aspectos administrativos, económicos y de organización. Tu interés es generar riquezas mediante planeación de procedimientos, así como encaminar el logro de objetivos del algún grupo de personas. ",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64e594a831a2337424db2f40"
+  },
+  "area": "Área de ciencias exactas y naturales",
+  "descripcion": "Ser analítico es parte de tu esencia, el diseño y construcción de mecanismos para satisfacer necesidades es parte de tu interés ya que facilitarías la vida diaria. El manejo de materiales para crear algo original y que mejore los avances científicos. ",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64e594bb31a2337424db2f41"
+  },
+  "area": "Área de ciencias sociales, educación y humanidades",
+  "descripcion": "El bienestar y la mejora de calidad de vida de otros es una de tus motivaciones para que las mismas puedan lograr una salud física y mental, la convivencia con la gente te permite conocer su comportamiento para llegar a un objetivo determinado.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64e594ce31a2337424db2f42"
+  },
+  "area": "Área de ciencias de la salud",
+  "descripcion": "Tu desarrollo se logrará cuando interactúes con seres vivos y organismos. Te interesa conocer cómo es el funcionamiento de diversas sustancias, si es necesario, buscar su equilibrio y restablecer el funcionamiento previo a una alteración. La modificación y preservación de componentes orgánicos y naturales son también parte de tu interés. ",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64e59e68cd7a786c20344c76"
+  },
+  "area": "Área de ciencias de ingenierías y arquitectura",
+  "descripcion": "Refleja una pasión por el arte, la música, lo bello y lo estético. Estas personas destacan por su sensibilidad e imaginación. Utilizan su creatividad de manera visual o auditiva para comunicar ideas y emociones de forma atractiva.",
+  "__v": 0
+}]

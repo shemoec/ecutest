@@ -1,7 +1,7 @@
 <% if (questions && questions.length > 0) { %>
   <% for (var i = 0; i < questions.length; i++) { %>
     <tr>
-      <td><%= i + 1 %></td>
+      <td><%= questions[i].order %></td>
       <td><%= questions[i].question %></td>
       <% if (questions[i].answers) { %>
         <td><%= questions[i].answers[0] %></td>
@@ -19,7 +19,9 @@
         <a class="btn border-shadow delete" data-id=<%= questions[i]._id%> >
           <span class="text-gradient"><i class="fas fa-times"></i></span>
         </a>
-      </td>
+        <button class="btn border-shadow move-up" data-id=<%= questions[i]._id%> >Subir</button>
+        <button class="btn border-shadow move-down" data-id=<%= questions[i]._id%> >Bajar</button>
+      </td>      
     </tr>
   <% } %>
 <% } else { %>
@@ -27,3 +29,17 @@
     <td colspan="8">No questions found</td>
   </tr>
 <% } %>
+
+<script>
+    $(document).on('click', '.move-up', function() {
+    const questionId = $(this).data('id');
+    window.location.href = `/move-up/${questionId}`;
+  });
+
+  $(document).on('click', '.move-down', function() {
+    const questionId = $(this).data('id');
+    window.location.href = `/move-down/${questionId}`;
+  });
+  
+
+</script>

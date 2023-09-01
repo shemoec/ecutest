@@ -1,5 +1,7 @@
 <!-- include header -->
 <%- include('include/_header') %>
+<button id="update-order" hidden>Actualizar orden</button>
+
 <!-- /include header -->
 
 <!-- Incluir estilos CSS de Data Tables -->
@@ -11,7 +13,6 @@
         <%- include('include/_dashboardmenu') %>
         <!-- /include header -->
         <!-- form handling -->
-        <form action="/" method="POST">
             <table id="preguntasTable" class="table">
                 <thead class="thead-dark">
                     <tr>
@@ -29,14 +30,20 @@
                     <%- include('include/_show') %>
                 </tbody>
             </table>
-        </form>
     </div>
 
 
 <!-- include footer -->
 <%- include('include/_footer') %>
 <!-- /include footer -->
+<script>
+    $(document).on('click', '#update-order', function() {
+  $.get('/update-order', function(data) {
+    alert('Orden actualizado');
+  });
+});
 
+</script>
 <!-- Incluir jQuery -->
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <!-- Incluir DataTables -->

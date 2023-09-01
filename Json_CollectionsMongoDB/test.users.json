@@ -1,0 +1,1600 @@
+[{
+  "_id": {
+    "$oid": "64a4f3698a98466b54f6ac24"
+  },
+  "resultadotest": "Área de ciencias económicas y empresariales",
+  "name": "Marivel Bravo",
+  "age": 16,
+  "email": "lhackersito@gmail.com",
+  "gender": "Femenino",
+  "province": "Orellana",
+  "location": "Francisco de Orellana",
+  "fecha": {
+    "$date": "2023-07-05T04:39:02.149Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64a505677fd1596eb89f786c"
+  },
+  "resultadotest": "Área de ciencias sociales, educación y humanidades",
+  "name": "Moises Juan",
+  "age": 17,
+  "email": "moises_jose@hotmail.es",
+  "gender": "Femenino",
+  "province": "Loja",
+  "location": "Olmedo",
+  "fecha": {
+    "$date": "2023-07-05T05:53:43.825Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64a50a3a6da396898cee0d4a"
+  },
+  "resultadotest": "Área de ciencias económicas y empresariales",
+  "name": "Andres Ochoa",
+  "age": 21,
+  "email": "andrefe@gmail.com",
+  "gender": "Femenino",
+  "province": "Cañar",
+  "location": "Azogues",
+  "fecha": {
+    "$date": "2023-07-05T06:14:18.645Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64a50d9b1e0cc46ce489f783"
+  },
+  "resultadotest": "Área de ciencias de ingenierías y arquitectura",
+  "name": "Andres Santillan",
+  "age": 21,
+  "email": "andrefe@gmail.com",
+  "gender": "Masculino",
+  "province": "Santo Domingo de los Tsáchilas",
+  "location": "Santo Domingo",
+  "fecha": {
+    "$date": "2023-07-05T06:28:43.496Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64a50ed91e0cc46ce489f784"
+  },
+  "resultadotest": "Área de ciencias económicas y empresariales",
+  "name": "Ximena Perez",
+  "age": 18,
+  "email": "xmb@gmail.com",
+  "gender": "Femenino",
+  "province": "Napo",
+  "location": "Tena",
+  "fecha": {
+    "$date": "2023-07-05T06:34:01.073Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64a5115e59b4a945f001ab7a"
+  },
+  "resultadotest": "Área de ciencias sociales, educación y humanidades",
+  "name": "Diego Ramones",
+  "age": 21,
+  "email": "diegueins@gmail.com",
+  "gender": "Masculino",
+  "province": "Chimborazo",
+  "location": "Riobamba",
+  "fecha": {
+    "$date": "2023-07-05T06:44:46.108Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64a512b4f5b8047204eed1af"
+  },
+  "resultadotest": "Área de ciencias sociales, educación y humanidades",
+  "name": "Diego Curi",
+  "age": 17,
+  "email": "diegueins@gmail.com",
+  "gender": "Masculino",
+  "province": "Chimborazo",
+  "location": "Riobamba",
+  "fecha": {
+    "$date": "2023-07-05T06:50:28.498Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64a5142e3a543330a8f7f177"
+  },
+  "resultadotest": "Área de ciencias económicas y empresariales",
+  "name": "Diego Almagro",
+  "age": 18,
+  "email": "diegueid@gmail.com",
+  "gender": "Masculino",
+  "province": "Chimborazo",
+  "location": "Riobamba",
+  "fecha": {
+    "$date": "2023-07-05T06:56:46.351Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64a63273a8feba12c0abb779"
+  },
+  "resultadotest": "Área de ciencias sociales, educación y humanidades",
+  "name": "Carlos Salcedo",
+  "age": 21,
+  "email": "sda@gmail.com",
+  "gender": "Femenino",
+  "province": "Pichincha",
+  "location": "Quito",
+  "fecha": {
+    "$date": "2023-07-06T03:18:11.042Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64a6d99fb9453ba80cbe1198"
+  },
+  "resultadotest": "Área de ciencias sociales, educación y humanidades",
+  "name": "Daniela Girón ",
+  "age": 25,
+  "email": "israelvicuas@hotmail.com",
+  "gender": "Femenino",
+  "province": "Azuay",
+  "location": "Guachapala",
+  "fecha": {
+    "$date": "2023-07-06T15:11:27.920Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64a7802b62ba3a9030600acb"
+  },
+  "resultadotest": "Área de ciencias económicas y empresariales",
+  "name": "Viviana Veloz",
+  "age": 18,
+  "email": "vivi@gmail.com",
+  "gender": "Femenino",
+  "province": "Tungurahua",
+  "location": "Ambato",
+  "fecha": {
+    "$date": "2023-07-07T03:02:03.506Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64a7a4f803b1038e60799029"
+  },
+  "resultadotest": "Área de ciencias sociales, educación y humanidades",
+  "name": "Jessica Obregón ",
+  "age": 17,
+  "email": "israelvicuas@hotmail.com",
+  "gender": "Femenino",
+  "province": "Cotopaxi",
+  "location": "Sigchos",
+  "fecha": {
+    "$date": "2023-07-07T05:39:04.377Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64a7a5d7beb89080c81596bf"
+  },
+  "resultadotest": "Área de ciencias de la salud",
+  "name": "Jessica Obregón ",
+  "age": 18,
+  "email": "israelvicuas@hotmail.com",
+  "gender": "Femenino",
+  "province": "Pastaza",
+  "location": "Puyo",
+  "fecha": {
+    "$date": "2023-07-07T05:42:47.440Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64a7a7fdec177e3f6c1a5dd9"
+  },
+  "resultadotest": "Área de ciencias de ingenierías y arquitectura",
+  "name": "Jessica Sanchez",
+  "age": 17,
+  "email": "israelvicuas@hotmail.com",
+  "gender": "Femenino",
+  "province": "Manabí",
+  "location": "Portoviejo",
+  "fecha": {
+    "$date": "2023-07-07T05:51:57.513Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64a7a8d1ec177e3f6c1a5dda"
+  },
+  "resultadotest": "Área de ciencias de ingenierías y arquitectura",
+  "name": "Daniela Obregón ",
+  "age": 16,
+  "email": "visra97@gmail.com",
+  "gender": "Femenino",
+  "province": "Morona Santiago",
+  "location": "Palora",
+  "fecha": {
+    "$date": "2023-07-07T05:55:29.038Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64a7aa7e4a2676ba6c5f57a5"
+  },
+  "resultadotest": "Área de ciencias de ingenierías y arquitectura",
+  "name": "Liliana Sangines",
+  "age": 18,
+  "email": "ecutest593@gmail.com",
+  "gender": "Femenino",
+  "province": "Pastaza",
+  "location": "Mera",
+  "fecha": {
+    "$date": "2023-07-07T06:02:38.313Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64a7aaec4a2676ba6c5f57a6"
+  },
+  "resultadotest": "Área de ciencias económicas y empresariales",
+  "name": "evelyn cuito",
+  "age": 20,
+  "email": "ecutest593@gmail.com",
+  "gender": "Masculino",
+  "province": "Manabí",
+  "location": "Portoviejo",
+  "fecha": {
+    "$date": "2023-07-07T06:04:28.979Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64a7ab614a2676ba6c5f57a7"
+  },
+  "resultadotest": "Área de ciencias sociales, educación y humanidades",
+  "name": "jefferson gutierrito ",
+  "age": 16,
+  "email": "ecutest593@gmail.com",
+  "gender": "Masculino",
+  "province": "El Oro",
+  "location": "Arenillas",
+  "fecha": {
+    "$date": "2023-07-07T06:06:25.590Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64a7ac4d10c9736e884f3364"
+  },
+  "resultadotest": "Área de ciencias exactas y naturales",
+  "name": "Marivel Briske",
+  "age": 21,
+  "email": "kks@gmail.com",
+  "gender": "Masculino",
+  "province": "Cañar",
+  "location": "Azogues",
+  "fecha": {
+    "$date": "2023-07-07T06:10:21.477Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64a7ad66acce1f7e5cccb4d8"
+  },
+  "resultadotest": "Área de ciencias sociales, educación y humanidades",
+  "name": "juanita sang",
+  "age": 25,
+  "email": "israelvicuas@hotmail.com",
+  "gender": "Femenino",
+  "province": "Esmeraldas",
+  "location": "Muisne",
+  "fecha": {
+    "$date": "2023-07-07T06:15:02.720Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64a7adbaacce1f7e5cccb4d9"
+  },
+  "resultadotest": "Área de ciencias de ingenierías y arquitectura",
+  "name": "juan berrones",
+  "age": 15,
+  "email": "juabr@gmail.com",
+  "gender": "Masculino",
+  "province": "Loja",
+  "location": "Puyango",
+  "fecha": {
+    "$date": "2023-07-07T06:16:26.496Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64a7ae17acce1f7e5cccb4da"
+  },
+  "resultadotest": "Área de ciencias económicas y empresariales",
+  "name": "Erick Salazar",
+  "age": 19,
+  "email": "israelvicuas@hotmail.com",
+  "gender": "Masculino",
+  "province": "Zamora Chinchipe",
+  "location": "Chinchipe",
+  "fecha": {
+    "$date": "2023-07-07T06:17:59.813Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64a7b0509fa0d49bfc15c004"
+  },
+  "resultadotest": "Área de ciencias de la salud",
+  "name": "Israel Vicuña",
+  "age": 19,
+  "email": "israelvicuas@hotmail.com",
+  "gender": "Masculino",
+  "province": "Los Ríos",
+  "location": "Urdaneta",
+  "fecha": {
+    "$date": "2023-07-07T06:27:28.550Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64a7b0bd9fa0d49bfc15c005"
+  },
+  "resultadotest": "Área de ciencias de la salud",
+  "name": "juan Satan",
+  "age": 18,
+  "email": "juangdiego@hotmail.com",
+  "gender": "Masculino",
+  "province": "Sucumbíos",
+  "location": "Nueva Loja",
+  "fecha": {
+    "$date": "2023-07-07T06:29:17.638Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64a7b1b69fa0d49bfc15c006"
+  },
+  "resultadotest": "Área de ciencias de ingenierías y arquitectura",
+  "name": "Manuel Heredia",
+  "age": 16,
+  "email": "visra97@hotmail.com",
+  "gender": "Masculino",
+  "province": "Los Ríos",
+  "location": "Valencia",
+  "fecha": {
+    "$date": "2023-07-07T06:33:26.596Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64a7b2799fa0d49bfc15c007"
+  },
+  "resultadotest": "Área de ciencias sociales, educación y humanidades",
+  "name": "Katerine Parra",
+  "age": 28,
+  "email": "katp89@gmail.com",
+  "gender": "Femenino",
+  "province": "Galápagos",
+  "location": "Santa Cruz",
+  "fecha": {
+    "$date": "2023-07-07T06:36:41.138Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64a7b5a7e930af8d1815d8bf"
+  },
+  "resultadotest": "Área de ciencias económicas y empresariales",
+  "name": "Valk Andre",
+  "age": 14,
+  "email": "visra97@gmail.com",
+  "gender": "Femenino",
+  "province": "Pastaza",
+  "location": "Puyo",
+  "fecha": {
+    "$date": "2023-07-07T06:50:15.119Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64a824c6ecb4fb4ad0eef1a0"
+  },
+  "resultadotest": "Área de ciencias exactas y naturales",
+  "name": "Daniela Obregón ",
+  "age": 15,
+  "email": "israelvicuas@hotmail.com",
+  "gender": "Masculino",
+  "province": "Napo",
+  "location": "Tena",
+  "fecha": {
+    "$date": "2023-07-07T14:44:22.135Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64a8258cecb4fb4ad0eef1a1"
+  },
+  "resultadotest": "Área de ciencias económicas y empresariales",
+  "name": "Jessica Obregón ",
+  "age": 15,
+  "email": "israelvicuas@hotmail.com",
+  "gender": "Femenino",
+  "province": "Pastaza",
+  "location": "Puyo",
+  "fecha": {
+    "$date": "2023-07-07T14:47:40.749Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64a82b84584b4d62042f77eb"
+  },
+  "resultadotest": "Área de ciencias de la salud",
+  "name": "Daniela Obregón ",
+  "age": 18,
+  "email": "israelvicuas@hotmail.com",
+  "gender": "Femenino",
+  "province": "Pastaza",
+  "location": "Puyo",
+  "fecha": {
+    "$date": "2023-07-07T15:13:08.453Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64bebd94d99d7316a496569c"
+  },
+  "resultadotest": "Área de ciencias de ingenierías y arquitectura",
+  "name": "Katerine Parra",
+  "age": 28,
+  "email": "israelvicuas@hotmail.com",
+  "gender": "Femenino",
+  "province": "Chimborazo",
+  "location": "Riobamba",
+  "fecha": {
+    "$date": "2023-07-24T18:06:12.757Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64bebde4d99d7316a496569d"
+  },
+  "resultadotest": "Área de ciencias sociales, educación y humanidades",
+  "name": "Katerine Parra",
+  "age": 28,
+  "email": "israelvicuas@hotmail.com",
+  "gender": "Femenino",
+  "province": "Chimborazo",
+  "location": "Riobamba",
+  "fecha": {
+    "$date": "2023-07-24T18:07:32.788Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64bebe47d99d7316a496569e"
+  },
+  "resultadotest": "Área de ciencias económicas y empresariales",
+  "name": "Daniela Parra",
+  "age": 27,
+  "email": "israelvicuas@hotmail.com",
+  "gender": "Femenino",
+  "province": "Pichincha",
+  "location": "Quito",
+  "fecha": {
+    "$date": "2023-07-24T18:09:11.541Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64bebf25d99d7316a496569f"
+  },
+  "resultadotest": "Área de ciencias exactas y naturales",
+  "name": "Hector Samuel",
+  "age": 18,
+  "email": "visra97@gmail.com",
+  "gender": "Masculino",
+  "province": "Esmeraldas",
+  "location": "Atacames",
+  "fecha": {
+    "$date": "2023-07-24T18:12:53.806Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64bec0b2d99d7316a49656a0"
+  },
+  "resultadotest": "Área de ciencias de ingenierías y arquitectura",
+  "name": "Mariana Vicuña",
+  "age": 20,
+  "email": "marinadsang@hotmail.com",
+  "gender": "Femenino",
+  "province": "Orellana",
+  "location": "La Joya de los Sachas",
+  "fecha": {
+    "$date": "2023-07-24T18:19:30.795Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64bec516d99d7316a49656a1"
+  },
+  "resultadotest": "Área de ciencias sociales, educación y humanidades",
+  "name": "Juan Sanchez",
+  "age": 18,
+  "email": "visra97@gmail.com",
+  "gender": "Masculino",
+  "province": "Galápagos",
+  "location": "Puerto Baquerizo Moreno",
+  "fecha": {
+    "$date": "2023-07-24T18:38:14.342Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64bec572d99d7316a49656a2"
+  },
+  "resultadotest": "Área de ciencias de ingenierías y arquitectura",
+  "name": "HECTOR SANTIAGO",
+  "age": 16,
+  "email": "israelvicuas@hotmail.com",
+  "gender": "Masculino",
+  "province": "Los Ríos",
+  "location": "Babahoyo",
+  "fecha": {
+    "$date": "2023-07-24T18:39:46.825Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64bec5ead99d7316a49656a3"
+  },
+  "resultadotest": "Área de ciencias de ingenierías y arquitectura",
+  "name": "JUANITA BURBANO",
+  "age": 16,
+  "email": "BURBANO@GMAIL.COM",
+  "gender": "Femenino",
+  "province": "Zamora Chinchipe",
+  "location": "Zamora",
+  "fecha": {
+    "$date": "2023-07-24T18:41:46.451Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64beef83b2491a29c057b9e9"
+  },
+  "resultadotest": "Área de ciencias económicas y empresariales",
+  "name": "Danilo Parra",
+  "age": 20,
+  "email": "israelvicuas@hotmail.com",
+  "gender": "Masculino",
+  "province": "Imbabura",
+  "location": "Ibarra",
+  "fecha": {
+    "$date": "2023-07-24T21:39:15.957Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64bef34a3f3357102cd754ee"
+  },
+  "resultadotest": "Área de ciencias de la salud",
+  "name": "Israel Vicuña",
+  "age": 15,
+  "email": "israelvicuas@hotmail.com",
+  "gender": "Masculino",
+  "province": "Orellana",
+  "location": "Francisco de Orellana",
+  "fecha": {
+    "$date": "2023-07-24T21:55:22.085Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64bef3ae3f3357102cd754ef"
+  },
+  "resultadotest": "Área de ciencias de la salud",
+  "name": "Ariel Acuña",
+  "age": 19,
+  "email": "ariel199@gmail.com",
+  "gender": "Masculino",
+  "province": "Cotopaxi",
+  "location": "Latacunga",
+  "fecha": {
+    "$date": "2023-07-24T21:57:02.486Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64bef40e3f3357102cd754f0"
+  },
+  "resultadotest": "Área de ciencias sociales, educación y humanidades",
+  "name": "Daniela Obregón ",
+  "age": 14,
+  "email": "carolinamendez001@gmail.com",
+  "gender": "Femenino",
+  "province": "Napo",
+  "location": "Tena",
+  "fecha": {
+    "$date": "2023-07-24T21:58:38.360Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64bef5f91006252410ebe735"
+  },
+  "resultadotest": "Área de ciencias exactas y naturales",
+  "name": "liliana s",
+  "age": 16,
+  "email": "israelvicuas@hotmail.com",
+  "gender": "Masculino",
+  "province": "Imbabura",
+  "location": "Ibarra",
+  "fecha": {
+    "$date": "2023-07-24T22:06:49.750Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c02e2a9800dd1d5cdf4b08"
+  },
+  "resultadotest": "Área de ciencias económicas y empresariales",
+  "name": "Israel Vicuña",
+  "age": 16,
+  "email": "israelvicuas@hotmail.com",
+  "gender": "Masculino",
+  "province": "Pichincha",
+  "location": "Quito",
+  "fecha": {
+    "$date": "2023-07-25T20:18:50.201Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c030ee6771914360944632"
+  },
+  "resultadotest": "Área de ciencias económicas y empresariales",
+  "name": "Victor Sampedro",
+  "age": 17,
+  "email": "lhackersito@gmail.com",
+  "gender": "Femenino",
+  "province": "Chimborazo",
+  "location": "Riobamba",
+  "fecha": {
+    "$date": "2023-07-25T20:30:38.386Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c88a686c31066d34ed4bee"
+  },
+  "resultadotest": "Área de ciencias sociales, educación y humanidades",
+  "name": "Jackie Zen",
+  "age": 18,
+  "email": "jacki@gmail.com",
+  "gender": "Femenino",
+  "province": "Zamora Chinchipe",
+  "location": "Zamora",
+  "fecha": {
+    "$date": "2023-08-01T04:30:32.047Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c89c952b63ab138471804a"
+  },
+  "resultadotest": "Área de ciencias sociales, educación y humanidades",
+  "name": "Merlin Acuña",
+  "age": 16,
+  "email": "acuna19@hotmail.com",
+  "gender": "Masculino",
+  "province": "Santo Domingo de los Tsáchilas",
+  "location": "Santo Domingo",
+  "fecha": {
+    "$date": "2023-08-01T05:48:05.608Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c89e7e2b63ab138471804b"
+  },
+  "resultadotest": "Área de ciencias de la salud",
+  "name": "Juanita Perez",
+  "age": 18,
+  "email": "perez188p@gmail.com",
+  "gender": "Femenino",
+  "province": "Santa Elena",
+  "location": "La Libertad",
+  "fecha": {
+    "$date": "2023-08-01T05:56:14.040Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c8ad002b63ab138471804c"
+  },
+  "resultadotest": "Área de ciencias económicas y empresariales",
+  "name": "Juancho Arm",
+  "age": 20,
+  "email": "juanjuan19@hotmail.com",
+  "gender": "Masculino",
+  "province": "Pastaza",
+  "location": "Puyo",
+  "fecha": {
+    "$date": "2023-08-01T06:58:08.780Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c965391839cb28e8857bf6"
+  },
+  "resultadotest": "Área de ciencias de ingenierías y arquitectura",
+  "name": "Israel Vicuña",
+  "age": 16,
+  "email": "israelvicuas@hotmail.com",
+  "gender": "Masculino",
+  "province": "Orellana",
+  "location": "Francisco de Orellana",
+  "fecha": {
+    "$date": "2023-08-01T20:04:09.725Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ca5d7f40538d20bc2b485b"
+  },
+  "resultadotest": "Área de ciencias de ingenierías y arquitectura",
+  "name": "victor Sangines",
+  "age": 18,
+  "email": "israelvicuas@hotmail.com",
+  "gender": "Masculino",
+  "province": "Los Ríos",
+  "location": "Babahoyo",
+  "fecha": {
+    "$date": "2023-08-02T13:43:27.528Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64cba07940538d20bc2b485c"
+  },
+  "resultadotest": "Área de ciencias económicas y empresariales",
+  "name": "Daniela Obregón ",
+  "age": 16,
+  "email": "israelvicuas@hotmail.com",
+  "gender": "Femenino",
+  "province": "Orellana",
+  "location": "Francisco de Orellana",
+  "fecha": {
+    "$date": "2023-08-03T12:41:29.553Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64cba22fa13f2704b817ce0a"
+  },
+  "resultadotest": "Área de ciencias de ingenierías y arquitectura",
+  "name": "Eduardo Encalada",
+  "age": 16,
+  "email": "aeencalada@utpl.edu.ec",
+  "gender": "Masculino",
+  "province": "Loja",
+  "location": "Loja",
+  "fecha": {
+    "$date": "2023-08-03T12:48:47.559Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64cc0145a13f2704b817ce0c"
+  },
+  "resultadotest": "Área de ciencias sociales, educación y humanidades",
+  "name": "juanito perez",
+  "age": 16,
+  "email": "mayra2sang@gmail.com",
+  "gender": "Masculino",
+  "province": "Morona Santiago",
+  "location": "Macas",
+  "fecha": {
+    "$date": "2023-08-03T19:34:29.821Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce93da6e2aed68f0a68245"
+  },
+  "resultadotest": "Área de ciencias de ingenierías y arquitectura",
+  "name": "Justin Bieber",
+  "age": 17,
+  "email": "mb@gmail.com",
+  "gender": "Masculino",
+  "province": "Pichincha",
+  "location": "Quito",
+  "fecha": {
+    "$date": "2023-08-05T18:24:26.174Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce9455fda3fb3770cc20e2"
+  },
+  "resultadotest": "Área de ciencias sociales, educación y humanidades",
+  "name": "Justin Bieber",
+  "age": 17,
+  "email": "mb@gmail.com",
+  "gender": "Masculino",
+  "province": "Pichincha",
+  "location": "Quito",
+  "fecha": {
+    "$date": "2023-08-05T18:26:29.229Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce94f7fda3fb3770cc20e3"
+  },
+  "resultadotest": "Área de ciencias de la salud",
+  "name": "Justin Bieber",
+  "age": 17,
+  "email": "mb@gmail.com",
+  "gender": "Masculino",
+  "province": "Pichincha",
+  "location": "Quito",
+  "fecha": {
+    "$date": "2023-08-05T18:29:11.949Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce970f881aa72b14c97251"
+  },
+  "resultadotest": "Área de ciencias económicas y empresariales",
+  "name": "Luis Mancer",
+  "age": 17,
+  "email": "mb@gmail.com",
+  "gender": "Masculino",
+  "province": "Los Ríos",
+  "location": "Babahoyo",
+  "fecha": {
+    "$date": "2023-08-05T18:38:07.381Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce9a0b881aa72b14c97252"
+  },
+  "resultadotest": "Área de ciencias de ingenierías y arquitectura",
+  "name": "Marivel Bravo",
+  "age": 17,
+  "email": "lhackersito@gmail.com",
+  "gender": "Femenino",
+  "province": "Chimborazo",
+  "location": "Riobamba",
+  "fecha": {
+    "$date": "2023-08-05T18:50:51.285Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64cea17c6e86df583063c74e"
+  },
+  "resultadotest": "Área de ciencias económicas y empresariales",
+  "name": "Carmen Electra",
+  "age": 17,
+  "email": "lhackersito@gmail.com",
+  "gender": "Femenino",
+  "province": "Chimborazo",
+  "location": "Riobamba",
+  "fecha": {
+    "$date": "2023-08-05T19:22:36.006Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64cea61362d88669245dff36"
+  },
+  "resultadotest": "Área de ciencias de ingenierías y arquitectura",
+  "name": "Carlos Correa",
+  "age": 16,
+  "email": "jacki@gmail.com",
+  "gender": "Masculino",
+  "province": "Chimborazo",
+  "location": "Riobamba",
+  "fecha": {
+    "$date": "2023-08-05T19:42:11.733Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64cf16e10f667207cc47b409"
+  },
+  "resultadotest": "Área de ciencias económicas y empresariales",
+  "name": "Hector Salamanca",
+  "age": 16,
+  "email": "hect38hd@gmail.com",
+  "gender": "Masculino",
+  "province": "Napo",
+  "location": "Archidona",
+  "fecha": {
+    "$date": "2023-08-06T03:43:29.598Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64cf22020f667207cc47b40a"
+  },
+  "resultadotest": "Área de ciencias económicas y empresariales",
+  "name": "Israel Vicuña",
+  "age": 15,
+  "email": "visra97@gmail.com",
+  "gender": "Femenino",
+  "province": "Pastaza",
+  "location": "Arajuno",
+  "fecha": {
+    "$date": "2023-08-06T04:30:58.616Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64d2f8e4046b7d9ff8c444ce"
+  },
+  "resultadotest": "Área de ciencias exactas y naturales",
+  "name": "Jacki Chan",
+  "age": 17,
+  "email": "jahck@gmail.com",
+  "gender": "Masculino",
+  "province": "Chimborazo",
+  "location": "Alausí",
+  "fecha": {
+    "$date": "2023-08-09T02:24:36.948Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64d2faddf3d70357104f0d5e"
+  },
+  "resultadotest": "Área de ciencias de ingenierías y arquitectura",
+  "name": "Jacki Chan",
+  "age": 17,
+  "email": "jahck@gmail.com",
+  "gender": "Masculino",
+  "province": "Chimborazo",
+  "location": "Alausí",
+  "fecha": {
+    "$date": "2023-08-09T02:33:01.629Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64d2fc57e7a3d0a9fc0a5422"
+  },
+  "resultadotest": "Área de ciencias de la salud",
+  "name": "Jacki Chan",
+  "age": 17,
+  "email": "jahck@gmail.com",
+  "gender": "Masculino",
+  "province": "Chimborazo",
+  "location": "Alausí",
+  "fecha": {
+    "$date": "2023-08-09T02:39:19.756Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64d2fd3bd5662126348b2828"
+  },
+  "resultadotest": "Área de ciencias de la salud",
+  "name": "Jacki Chan",
+  "age": 17,
+  "email": "jahck@gmail.com",
+  "gender": "Masculino",
+  "province": "Chimborazo",
+  "location": "Alausí",
+  "fecha": {
+    "$date": "2023-08-09T02:43:07.924Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64d309af072383390cc14139"
+  },
+  "resultadotest": "Área de ciencias exactas y naturales",
+  "name": "Joe Jonas",
+  "age": 17,
+  "email": "ja@gmail.com",
+  "gender": "Masculino",
+  "province": "Galápagos",
+  "location": "Isla Isabela",
+  "fecha": {
+    "$date": "2023-08-09T03:36:15.785Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64d30bc21e4bd291f400391c"
+  },
+  "resultadotest": "Área de ciencias de ingenierías y arquitectura",
+  "name": "Justin Bieber",
+  "age": 17,
+  "email": "mb@gmail.com",
+  "gender": "Masculino",
+  "province": "Pastaza",
+  "location": "Puyo",
+  "fecha": {
+    "$date": "2023-08-09T03:45:06.615Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64d30d2f1e4bd291f400391d"
+  },
+  "resultadotest": "Área de ciencias de ingenierías y arquitectura",
+  "name": "Moshe Brito",
+  "age": 17,
+  "email": "moises_jose@hotmail.es",
+  "gender": "Masculino",
+  "province": "Chimborazo",
+  "location": "Riobamba",
+  "fecha": {
+    "$date": "2023-08-09T03:51:11.570Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64d30f2d65d1589c58e2fdd2"
+  },
+  "resultadotest": "Área de ciencias económicas y empresariales",
+  "name": "Michaell Arrigo",
+  "age": 18,
+  "email": "mccs@gmail.com",
+  "gender": "Masculino",
+  "province": "Guayas",
+  "location": "Balzar",
+  "fecha": {
+    "$date": "2023-08-09T03:59:41.820Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64d30f9b75011062bc723a21"
+  },
+  "resultadotest": "Área de ciencias sociales, educación y humanidades",
+  "name": "Gabriela Villacres",
+  "age": 17,
+  "email": "gabyyop@gmai.com",
+  "gender": "Femenino",
+  "province": "Carchi",
+  "location": "Bolívar",
+  "fecha": {
+    "$date": "2023-08-09T04:01:31.803Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64d30ffb75011062bc723a22"
+  },
+  "resultadotest": "Área de ciencias exactas y naturales",
+  "name": "Cristopher Vallejo",
+  "age": 17,
+  "email": "christopher17@gmail.com",
+  "gender": "Masculino",
+  "province": "Pichincha",
+  "location": "Cayambe",
+  "fecha": {
+    "$date": "2023-08-09T04:03:07.441Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64d4710d50495a1b7cba55e4"
+  },
+  "resultadotest": "Área de ciencias de ingenierías y arquitectura",
+  "name": "juan davi",
+  "age": 19,
+  "email": "visra97@gmail.com",
+  "gender": "Masculino",
+  "province": "Pastaza",
+  "location": "Arajuno",
+  "fecha": {
+    "$date": "2023-08-10T05:09:33.524Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64d4d9ba50495a1b7cba55e5"
+  },
+  "resultadotest": "Área de ciencias exactas y naturales",
+  "name": "Katerine Parra",
+  "age": 15,
+  "email": "visra97@gmail.com",
+  "gender": "Femenino",
+  "province": "Morona Santiago",
+  "location": "Gualaquiza",
+  "fecha": {
+    "$date": "2023-08-10T12:36:10.439Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64d4daa050495a1b7cba55e6"
+  },
+  "resultadotest": "Área de ciencias exactas y naturales",
+  "name": "daniel haro",
+  "age": 15,
+  "email": "visra97@gmail.com",
+  "gender": "Masculino",
+  "province": "Pastaza",
+  "location": "Arajuno",
+  "fecha": {
+    "$date": "2023-08-10T12:40:00.955Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64d4dab650495a1b7cba55e7"
+  },
+  "resultadotest": "Área de ciencias económicas y empresariales",
+  "name": "Daniela Obregón ",
+  "age": 16,
+  "email": "mayra2sang@gmail.com",
+  "gender": "Femenino",
+  "province": "Manabí",
+  "location": "24 de Mayo",
+  "fecha": {
+    "$date": "2023-08-10T12:40:22.780Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64d4db9aefedd20f84a1f82d"
+  },
+  "resultadotest": "Área de ciencias de ingenierías y arquitectura",
+  "name": "Juan Daniel",
+  "age": 19,
+  "email": "carolinamendez001@gmail.com",
+  "gender": "Masculino",
+  "province": "Manabí",
+  "location": "24 de Mayo",
+  "fecha": {
+    "$date": "2023-08-10T12:44:10.361Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64d4f658efedd20f84a1f82e"
+  },
+  "resultadotest": "Área de ciencias de ingenierías y arquitectura",
+  "name": "dego gomez",
+  "age": 20,
+  "email": "carolinamendez001@gmail.com",
+  "gender": "Masculino",
+  "province": "Esmeraldas",
+  "location": "Atacames",
+  "fecha": {
+    "$date": "2023-08-10T14:38:16.639Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64d4f865efedd20f84a1f82f"
+  },
+  "resultadotest": "Área de ciencias sociales, educación y humanidades",
+  "name": "Israel Vicuña",
+  "age": 18,
+  "email": "israelvicuas@hotmail.com",
+  "gender": "Masculino",
+  "province": "Manabí",
+  "location": "24 de Mayo",
+  "fecha": {
+    "$date": "2023-08-10T14:47:01.160Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64d500b3efedd20f84a1f830"
+  },
+  "resultadotest": "Área de ciencias económicas y empresariales",
+  "name": "Katerine Parra",
+  "age": 15,
+  "email": "visra97@gmail.com",
+  "gender": "Femenino",
+  "province": "Morona Santiago",
+  "location": "Gualaquiza",
+  "fecha": {
+    "$date": "2023-08-10T15:22:27.709Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64d541b9efedd20f84a1f831"
+  },
+  "resultadotest": "Área de ciencias económicas y empresariales",
+  "name": "Israel Vicuña",
+  "age": 20,
+  "email": "mayra2sang@gmail.com",
+  "gender": "Masculino",
+  "province": "Napo",
+  "location": "Archidona",
+  "fecha": {
+    "$date": "2023-08-10T19:59:53.175Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64e5740d2a74165d0c7221ac"
+  },
+  "resultadotest": "Área de ciencias exactas y naturales",
+  "name": "Moshe Brito",
+  "age": 17,
+  "email": "mb@gmail.com",
+  "gender": "Masculino",
+  "province": "Manabí",
+  "location": "Manta",
+  "fecha": {
+    "$date": "2023-08-23T02:50:53.239Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64e574112a74165d0c7221ad"
+  },
+  "resultadotest": "Área de ciencias económicas y empresariales",
+  "name": "Moshe Brito",
+  "age": 17,
+  "email": "mb@gmail.com",
+  "gender": "Masculino",
+  "province": "Manabí",
+  "location": "Manta",
+  "fecha": {
+    "$date": "2023-08-23T02:50:57.658Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64e57a5eba257235e823a477"
+  },
+  "resultadotest": "Área de ciencias sociales, educación y humanidades",
+  "name": "Victor Sampedro",
+  "age": 17,
+  "email": "moises_jose@hotmail.es",
+  "gender": "Masculino",
+  "province": "Chimborazo",
+  "location": "Riobamba",
+  "fecha": {
+    "$date": "2023-08-23T03:17:50.763Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64e57dbf07813260e0e65b58"
+  },
+  "resultadotest": "Área de ciencias exactas y naturales",
+  "name": "Daniel Noboa",
+  "age": 18,
+  "email": "lhackersito@gmail.com",
+  "gender": "Masculino",
+  "province": "Chimborazo",
+  "location": "Riobamba",
+  "fecha": {
+    "$date": "2023-08-23T03:32:15.784Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64e59ad3cc26a75a00f0db94"
+  },
+  "resultadotest": "Área de ciencias sociales, educación y humanidades",
+  "name": "Victor Sampedro",
+  "age": 18,
+  "email": "mb@gmail.com",
+  "gender": "Masculino",
+  "province": "Chimborazo",
+  "location": "Riobamba",
+  "fecha": {
+    "$date": "2023-08-23T05:36:19.827Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64e5af661232ed0968643632"
+  },
+  "resultadotest": "Área de ciencias de la salud",
+  "name": "Alexis Granizo",
+  "age": 18,
+  "email": "ak47@gmail.com",
+  "gender": "Masculino",
+  "province": "Chimborazo",
+  "location": "Alausí",
+  "fecha": {
+    "$date": "2023-08-23T07:04:06.461Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64e5b1011232ed0968643633"
+  },
+  "resultadotest": "Área de ciencias de la salud",
+  "name": "Justin Bieber",
+  "age": 17,
+  "email": "moises_jose@hotmail.es",
+  "gender": "Masculino",
+  "province": "Pichincha",
+  "location": "Quito",
+  "fecha": {
+    "$date": "2023-08-23T07:10:57.660Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64e5b2d01232ed0968643634"
+  },
+  "resultadotest": "Área de ciencias económicas y empresariales",
+  "name": "Jacki Chan",
+  "age": 17,
+  "email": "moises_jose@hotmail.es",
+  "gender": "Masculino",
+  "province": "Orellana",
+  "location": "Aguarico",
+  "fecha": {
+    "$date": "2023-08-23T07:18:40.353Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64e645caf14708488818b0c6"
+  },
+  "resultadotest": "Área de ciencias exactas y naturales",
+  "name": "Maria Paula Romo",
+  "age": 17,
+  "email": "mp@gmail.com",
+  "gender": "Femenino",
+  "province": "Chimborazo",
+  "location": "Riobamba",
+  "fecha": {
+    "$date": "2023-08-23T17:45:46.499Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64e830fd3e6d863514fcd506"
+  },
+  "resultadotest": "Área de ciencias económicas y empresariales",
+  "name": "Jose Roberto",
+  "age": 15,
+  "email": "mayra2sang@gmail.com",
+  "gender": "Masculino",
+  "province": "Los Ríos",
+  "location": "Urdaneta",
+  "fecha": {
+    "$date": "2023-08-25T04:41:33.622Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64e835003e6d863514fcd507"
+  },
+  "resultadotest": "Área de ciencias exactas y naturales",
+  "name": "Morty Adams",
+  "age": 16,
+  "email": "ismaeld@gmail.com",
+  "gender": "Masculino",
+  "province": "Morona Santiago",
+  "location": "Gualaquiza",
+  "fecha": {
+    "$date": "2023-08-25T04:58:40.877Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64e8a25f236fc625a0eedf07"
+  },
+  "resultadotest": "",
+  "name": "daniel noboa",
+  "age": 16,
+  "email": "daniel@gmail.com",
+  "gender": "Masculino",
+  "province": "Orellana",
+  "location": "Santa María de Huachipires",
+  "fecha": {
+    "$date": "2023-08-25T12:45:19.836Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64e8a5ad236fc625a0eedf08"
+  },
+  "resultadotest": "Área de ciencias de la salud",
+  "name": "victor heredia",
+  "age": 16,
+  "email": "israelvicuas@hotmail.com",
+  "gender": "Masculino",
+  "province": "Morona Santiago",
+  "location": "Macas",
+  "fecha": {
+    "$date": "2023-08-25T12:59:25.564Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64e8a668236fc625a0eedf09"
+  },
+  "resultadotest": "Área de ciencias económicas y empresariales",
+  "name": "Andres Carrion",
+  "age": 17,
+  "email": "carrion123@gmail.com",
+  "gender": "Masculino",
+  "province": "Loja",
+  "location": "Loja",
+  "fecha": {
+    "$date": "2023-08-25T13:02:32.370Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64e8eed6236fc625a0eedf0a"
+  },
+  "resultadotest": "",
+  "name": "Daniela Obregón ",
+  "age": 18,
+  "email": "mayra2sang@gmail.com",
+  "gender": "Femenino",
+  "province": "Los Ríos",
+  "location": "Babahoyo",
+  "fecha": {
+    "$date": "2023-08-25T18:11:34.633Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64e8ef77e717fa23c08006d0"
+  },
+  "resultadotest": "Área de ciencias de ingenierías y arquitectura",
+  "name": "Jess ANDRE",
+  "age": 16,
+  "email": "carolinamendez001@gmail.com",
+  "gender": "Femenino",
+  "province": "Los Ríos",
+  "location": "Babahoyo",
+  "fecha": {
+    "$date": "2023-08-25T18:14:15.371Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ee37f8d75d48116c9a5921"
+  },
+  "resultadotest": "",
+  "name": "Jessica Obregón ",
+  "age": 18,
+  "email": "mayra2sang@gmail.com",
+  "gender": "Femenino",
+  "province": "Pichincha",
+  "location": "Quito",
+  "fecha": {
+    "$date": "2023-08-29T18:24:56.603Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ee39e1c563141cd0810966"
+  },
+  "resultadotest": "Área de ciencias de la salud",
+  "name": "vic tor",
+  "age": 16,
+  "email": "victjhsa@gmail.com",
+  "gender": "Masculino",
+  "province": "Guayas",
+  "location": "Guayaquil",
+  "fecha": {
+    "$date": "2023-08-29T18:33:05.387Z"
+  },
+  "__v": 0
+}]

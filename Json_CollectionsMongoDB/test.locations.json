@@ -1,0 +1,2216 @@
+[{
+  "_id": {
+    "$oid": "64ce7e102cc42f13246d160f"
+  },
+  "province": "Azuay",
+  "city": "Cuenca",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e112cc42f13246d1610"
+  },
+  "province": "Azuay",
+  "city": "Gualaceo",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e112cc42f13246d1611"
+  },
+  "province": "Azuay",
+  "city": "Chordeleg",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e122cc42f13246d1612"
+  },
+  "province": "Azuay",
+  "city": "Paute",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e122cc42f13246d1613"
+  },
+  "province": "Azuay",
+  "city": "Sigsig",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e122cc42f13246d1614"
+  },
+  "province": "Azuay",
+  "city": "Santa Isabel",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e122cc42f13246d1615"
+  },
+  "province": "Azuay",
+  "city": "Pucará",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e122cc42f13246d1616"
+  },
+  "province": "Azuay",
+  "city": "Oña",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e122cc42f13246d1617"
+  },
+  "province": "Azuay",
+  "city": "Girón",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e122cc42f13246d1618"
+  },
+  "province": "Azuay",
+  "city": "Nabón",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e122cc42f13246d1619"
+  },
+  "province": "Azuay",
+  "city": "San Fernando",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e122cc42f13246d161a"
+  },
+  "province": "Azuay",
+  "city": "Santa Ana",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e122cc42f13246d161b"
+  },
+  "province": "Azuay",
+  "city": "Loja",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e122cc42f13246d161c"
+  },
+  "province": "Azuay",
+  "city": "Sevilla de Oro",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e122cc42f13246d161d"
+  },
+  "province": "Azuay",
+  "city": "El Pan",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e122cc42f13246d161e"
+  },
+  "province": "Azuay",
+  "city": "Guachapala",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e122cc42f13246d161f"
+  },
+  "province": "Azuay",
+  "city": "Camilo Ponce Enríquez",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e122cc42f13246d1620"
+  },
+  "province": "Azuay",
+  "city": "Sígsig",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e122cc42f13246d1621"
+  },
+  "province": "Bolívar",
+  "city": "Guaranda",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e122cc42f13246d1622"
+  },
+  "province": "Bolívar",
+  "city": "San Miguel",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e122cc42f13246d1623"
+  },
+  "province": "Bolívar",
+  "city": "Chillanes",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e122cc42f13246d1624"
+  },
+  "province": "Bolívar",
+  "city": "Caluma",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e122cc42f13246d1625"
+  },
+  "province": "Bolívar",
+  "city": "Las Naves",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e122cc42f13246d1626"
+  },
+  "province": "Bolívar",
+  "city": "Echeandía",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e132cc42f13246d1627"
+  },
+  "province": "Bolívar",
+  "city": "San José de Chimbo",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e132cc42f13246d1628"
+  },
+  "province": "Bolívar",
+  "city": "Chimbo",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e132cc42f13246d1629"
+  },
+  "province": "Bolívar",
+  "city": "Guanujo",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e132cc42f13246d162a"
+  },
+  "province": "Bolívar",
+  "city": "Simiatug",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e132cc42f13246d162b"
+  },
+  "province": "Cañar",
+  "city": "Azogues",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e132cc42f13246d162c"
+  },
+  "province": "Cañar",
+  "city": "La Troncal",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e132cc42f13246d162d"
+  },
+  "province": "Cañar",
+  "city": "El Tambo",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e132cc42f13246d162e"
+  },
+  "province": "Cañar",
+  "city": "Biblián",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e132cc42f13246d162f"
+  },
+  "province": "Cañar",
+  "city": "Déleg",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e132cc42f13246d1630"
+  },
+  "province": "Cañar",
+  "city": "Suscal",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e132cc42f13246d1631"
+  },
+  "province": "Cañar",
+  "city": "El Carmen",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e132cc42f13246d1632"
+  },
+  "province": "Cañar",
+  "city": "La Mancha",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e132cc42f13246d1633"
+  },
+  "province": "Cañar",
+  "city": "Azogues",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e132cc42f13246d1634"
+  },
+  "province": "Cañar",
+  "city": "Cañar",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e132cc42f13246d1635"
+  },
+  "province": "Carchi",
+  "city": "Tulcán",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e132cc42f13246d1636"
+  },
+  "province": "Carchi",
+  "city": "Montúfar",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e132cc42f13246d1637"
+  },
+  "province": "Carchi",
+  "city": "Mira",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e132cc42f13246d1638"
+  },
+  "province": "Carchi",
+  "city": "Bolívar",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e132cc42f13246d1639"
+  },
+  "province": "Carchi",
+  "city": "Espejo",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e132cc42f13246d163a"
+  },
+  "province": "Carchi",
+  "city": "Mira",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e132cc42f13246d163b"
+  },
+  "province": "Carchi",
+  "city": "Montúfar",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e132cc42f13246d163c"
+  },
+  "province": "Carchi",
+  "city": "San Pedro de Huaca",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e132cc42f13246d163d"
+  },
+  "province": "Chimborazo",
+  "city": "Riobamba",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e132cc42f13246d163e"
+  },
+  "province": "Chimborazo",
+  "city": "Guano",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e132cc42f13246d163f"
+  },
+  "province": "Chimborazo",
+  "city": "Alausí",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e132cc42f13246d1640"
+  },
+  "province": "Chimborazo",
+  "city": "Chambo",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e142cc42f13246d1641"
+  },
+  "province": "Chimborazo",
+  "city": "Chunchi",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e142cc42f13246d1642"
+  },
+  "province": "Chimborazo",
+  "city": "Colta",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e142cc42f13246d1643"
+  },
+  "province": "Chimborazo",
+  "city": "Cumandá",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e142cc42f13246d1644"
+  },
+  "province": "Chimborazo",
+  "city": "Guamote",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e142cc42f13246d1645"
+  },
+  "province": "Chimborazo",
+  "city": "Guano",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e142cc42f13246d1646"
+  },
+  "province": "Chimborazo",
+  "city": "Pallatanga",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e142cc42f13246d1647"
+  },
+  "province": "Chimborazo",
+  "city": "Penipe",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e142cc42f13246d1648"
+  },
+  "province": "Cotopaxi",
+  "city": "Latacunga",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e142cc42f13246d1649"
+  },
+  "province": "Cotopaxi",
+  "city": "La Maná",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e142cc42f13246d164a"
+  },
+  "province": "Cotopaxi",
+  "city": "Saquisilí",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e142cc42f13246d164b"
+  },
+  "province": "Cotopaxi",
+  "city": "Salcedo",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e142cc42f13246d164c"
+  },
+  "province": "Cotopaxi",
+  "city": "Sigchos",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e142cc42f13246d164d"
+  },
+  "province": "Cotopaxi",
+  "city": "Pangua",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e142cc42f13246d164e"
+  },
+  "province": "Cotopaxi",
+  "city": "Latacunga",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e142cc42f13246d164f"
+  },
+  "province": "Cotopaxi",
+  "city": "Pujilí",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e142cc42f13246d1650"
+  },
+  "province": "El Oro",
+  "city": "Machala",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e142cc42f13246d1651"
+  },
+  "province": "El Oro",
+  "city": "Pasaje",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e142cc42f13246d1652"
+  },
+  "province": "El Oro",
+  "city": "Santa Rosa",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e142cc42f13246d1653"
+  },
+  "province": "El Oro",
+  "city": "Arenillas",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e142cc42f13246d1654"
+  },
+  "province": "El Oro",
+  "city": "Atahualpa",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e142cc42f13246d1655"
+  },
+  "province": "El Oro",
+  "city": "Balsas",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e142cc42f13246d1656"
+  },
+  "province": "El Oro",
+  "city": "Chilla",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e142cc42f13246d1657"
+  },
+  "province": "El Oro",
+  "city": "El Guabo",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e142cc42f13246d1658"
+  },
+  "province": "El Oro",
+  "city": "Huaquillas",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e142cc42f13246d1659"
+  },
+  "province": "El Oro",
+  "city": "Las Lajas",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e152cc42f13246d165a"
+  },
+  "province": "El Oro",
+  "city": "Marcabelí",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e152cc42f13246d165b"
+  },
+  "province": "El Oro",
+  "city": "Piñas",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e152cc42f13246d165c"
+  },
+  "province": "El Oro",
+  "city": "Portovelo",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e152cc42f13246d165d"
+  },
+  "province": "El Oro",
+  "city": "Zaruma",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e152cc42f13246d165e"
+  },
+  "province": "El Oro",
+  "city": "Santa Rosa",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e152cc42f13246d165f"
+  },
+  "province": "Esmeraldas",
+  "city": "Esmeraldas",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e152cc42f13246d1660"
+  },
+  "province": "Esmeraldas",
+  "city": "Atacames",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e152cc42f13246d1661"
+  },
+  "province": "Esmeraldas",
+  "city": "Muisne",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e152cc42f13246d1662"
+  },
+  "province": "Esmeraldas",
+  "city": "Rioverde",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e152cc42f13246d1663"
+  },
+  "province": "Esmeraldas",
+  "city": "Quinindé",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e152cc42f13246d1664"
+  },
+  "province": "Esmeraldas",
+  "city": "San Lorenzo",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e152cc42f13246d1665"
+  },
+  "province": "Esmeraldas",
+  "city": "Eloy Alfaro",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e152cc42f13246d1666"
+  },
+  "province": "Galápagos",
+  "city": "Puerto Baquerizo Moreno",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e152cc42f13246d1667"
+  },
+  "province": "Galápagos",
+  "city": "Puerto Ayora",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e152cc42f13246d1668"
+  },
+  "province": "Galápagos",
+  "city": "Isla Isabela",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e152cc42f13246d1669"
+  },
+  "province": "Galápagos",
+  "city": "Santa Cruz",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e152cc42f13246d166a"
+  },
+  "province": "Galápagos",
+  "city": "San Cristóbal",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e152cc42f13246d166b"
+  },
+  "province": "Guayas",
+  "city": "Guayaquil",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e152cc42f13246d166c"
+  },
+  "province": "Guayas",
+  "city": "Durán",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e152cc42f13246d166d"
+  },
+  "province": "Guayas",
+  "city": "Samborondón",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e152cc42f13246d166e"
+  },
+  "province": "Guayas",
+  "city": "Playas",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e152cc42f13246d166f"
+  },
+  "province": "Guayas",
+  "city": "Daule",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e152cc42f13246d1670"
+  },
+  "province": "Guayas",
+  "city": "Nobol",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e152cc42f13246d1671"
+  },
+  "province": "Guayas",
+  "city": "Isidro Ayora",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e152cc42f13246d1672"
+  },
+  "province": "Guayas",
+  "city": "El Empalme",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e162cc42f13246d1673"
+  },
+  "province": "Guayas",
+  "city": "Balzar",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e162cc42f13246d1674"
+  },
+  "province": "Guayas",
+  "city": "Colimes",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e162cc42f13246d1675"
+  },
+  "province": "Guayas",
+  "city": "Palestina",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e162cc42f13246d1676"
+  },
+  "province": "Guayas",
+  "city": "Pedro Carbo",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e162cc42f13246d1677"
+  },
+  "province": "Guayas",
+  "city": "Salitre",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e162cc42f13246d1678"
+  },
+  "province": "Guayas",
+  "city": "Yaguachi",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e162cc42f13246d1679"
+  },
+  "province": "Guayas",
+  "city": "Lomas de Sargentillo",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e162cc42f13246d167a"
+  },
+  "province": "Guayas",
+  "city": "Milagro",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e162cc42f13246d167b"
+  },
+  "province": "Guayas",
+  "city": "Naranjal",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e162cc42f13246d167c"
+  },
+  "province": "Guayas",
+  "city": "Naranjito",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e162cc42f13246d167d"
+  },
+  "province": "Guayas",
+  "city": "Guayaquil",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e162cc42f13246d167e"
+  },
+  "province": "Guayas",
+  "city": "Durán",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e162cc42f13246d167f"
+  },
+  "province": "Guayas",
+  "city": "Samborondón",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e162cc42f13246d1680"
+  },
+  "province": "Guayas",
+  "city": "Playas",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e162cc42f13246d1681"
+  },
+  "province": "Imbabura",
+  "city": "Ibarra",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e162cc42f13246d1682"
+  },
+  "province": "Imbabura",
+  "city": "Otavalo",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e162cc42f13246d1683"
+  },
+  "province": "Imbabura",
+  "city": "Cotacachi",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e162cc42f13246d1684"
+  },
+  "province": "Imbabura",
+  "city": "Antonio Ante",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e162cc42f13246d1685"
+  },
+  "province": "Imbabura",
+  "city": "Pimampiro",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e162cc42f13246d1686"
+  },
+  "province": "Imbabura",
+  "city": "Urcuquí",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e162cc42f13246d1687"
+  },
+  "province": "Imbabura",
+  "city": "Ibarra",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e162cc42f13246d1688"
+  },
+  "province": "Imbabura",
+  "city": "Otavalo",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e162cc42f13246d1689"
+  },
+  "province": "Imbabura",
+  "city": "Cotacachi",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e162cc42f13246d168a"
+  },
+  "province": "Loja",
+  "city": "Loja",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e172cc42f13246d168b"
+  },
+  "province": "Loja",
+  "city": "Catamayo",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e172cc42f13246d168c"
+  },
+  "province": "Loja",
+  "city": "Zapotillo",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e172cc42f13246d168d"
+  },
+  "province": "Loja",
+  "city": "Calvas",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e172cc42f13246d168e"
+  },
+  "province": "Loja",
+  "city": "Gonzanamá",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e172cc42f13246d168f"
+  },
+  "province": "Loja",
+  "city": "Espíndola",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e172cc42f13246d1690"
+  },
+  "province": "Loja",
+  "city": "Macará",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e172cc42f13246d1691"
+  },
+  "province": "Loja",
+  "city": "Paltas",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e172cc42f13246d1692"
+  },
+  "province": "Loja",
+  "city": "Puyango",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e172cc42f13246d1693"
+  },
+  "province": "Loja",
+  "city": "Saraguro",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e172cc42f13246d1694"
+  },
+  "province": "Loja",
+  "city": "Sozoranga",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e172cc42f13246d1695"
+  },
+  "province": "Loja",
+  "city": "Catamayo",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e172cc42f13246d1696"
+  },
+  "province": "Loja",
+  "city": "Chaguarpamba",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e172cc42f13246d1697"
+  },
+  "province": "Loja",
+  "city": "Olmedo",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e172cc42f13246d1698"
+  },
+  "province": "Loja",
+  "city": "Puyango",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e172cc42f13246d1699"
+  },
+  "province": "Loja",
+  "city": "Quilanga",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e172cc42f13246d169a"
+  },
+  "province": "Los Ríos",
+  "city": "Babahoyo",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e172cc42f13246d169b"
+  },
+  "province": "Los Ríos",
+  "city": "Quevedo",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e172cc42f13246d169c"
+  },
+  "province": "Los Ríos",
+  "city": "Ventanas",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e172cc42f13246d169d"
+  },
+  "province": "Los Ríos",
+  "city": "Buena Fe",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e172cc42f13246d169e"
+  },
+  "province": "Los Ríos",
+  "city": "Mocache",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e172cc42f13246d169f"
+  },
+  "province": "Los Ríos",
+  "city": "Montalvo",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e172cc42f13246d16a0"
+  },
+  "province": "Los Ríos",
+  "city": "Palenque",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e172cc42f13246d16a1"
+  },
+  "province": "Los Ríos",
+  "city": "Puebloviejo",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e172cc42f13246d16a2"
+  },
+  "province": "Los Ríos",
+  "city": "Quinsaloma",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e182cc42f13246d16a3"
+  },
+  "province": "Los Ríos",
+  "city": "Valencia",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e182cc42f13246d16a4"
+  },
+  "province": "Los Ríos",
+  "city": "Urdaneta",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e182cc42f13246d16a5"
+  },
+  "province": "Los Ríos",
+  "city": "Babahoyo",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e182cc42f13246d16a6"
+  },
+  "province": "Los Ríos",
+  "city": "Montalvo",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e182cc42f13246d16a7"
+  },
+  "province": "Los Ríos",
+  "city": "Palenque",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e182cc42f13246d16a8"
+  },
+  "province": "Los Ríos",
+  "city": "Quevedo",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e182cc42f13246d16a9"
+  },
+  "province": "Los Ríos",
+  "city": "Valencia",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e182cc42f13246d16aa"
+  },
+  "province": "Los Ríos",
+  "city": "Ventanas",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e182cc42f13246d16ab"
+  },
+  "province": "Los Ríos",
+  "city": "Vinces",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e182cc42f13246d16ac"
+  },
+  "province": "Manabí",
+  "city": "Portoviejo",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e182cc42f13246d16ad"
+  },
+  "province": "Manabí",
+  "city": "Manta",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e182cc42f13246d16ae"
+  },
+  "province": "Manabí",
+  "city": "Jipijapa",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e182cc42f13246d16af"
+  },
+  "province": "Manabí",
+  "city": "Chone",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e182cc42f13246d16b0"
+  },
+  "province": "Manabí",
+  "city": "El Carmen",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e182cc42f13246d16b1"
+  },
+  "province": "Manabí",
+  "city": "Flavio Alfaro",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e182cc42f13246d16b2"
+  },
+  "province": "Manabí",
+  "city": "Jama",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e182cc42f13246d16b3"
+  },
+  "province": "Manabí",
+  "city": "Jaramijó",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e182cc42f13246d16b4"
+  },
+  "province": "Manabí",
+  "city": "Junín",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e182cc42f13246d16b5"
+  },
+  "province": "Manabí",
+  "city": "Manta",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e182cc42f13246d16b6"
+  },
+  "province": "Manabí",
+  "city": "Montecristi",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e182cc42f13246d16b7"
+  },
+  "province": "Manabí",
+  "city": "Paján",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e182cc42f13246d16b8"
+  },
+  "province": "Manabí",
+  "city": "Pedernales",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e182cc42f13246d16b9"
+  },
+  "province": "Manabí",
+  "city": "Pichincha",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e182cc42f13246d16ba"
+  },
+  "province": "Manabí",
+  "city": "Rocafuerte",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e192cc42f13246d16bb"
+  },
+  "province": "Manabí",
+  "city": "Santa Ana",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e192cc42f13246d16bc"
+  },
+  "province": "Manabí",
+  "city": "Sucre",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e192cc42f13246d16bd"
+  },
+  "province": "Manabí",
+  "city": "Tosagua",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e192cc42f13246d16be"
+  },
+  "province": "Manabí",
+  "city": "24 de Mayo",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e192cc42f13246d16bf"
+  },
+  "province": "Manabí",
+  "city": "Olmedo",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e192cc42f13246d16c0"
+  },
+  "province": "Morona Santiago",
+  "city": "Macas",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e192cc42f13246d16c1"
+  },
+  "province": "Morona Santiago",
+  "city": "Gualaquiza",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e192cc42f13246d16c2"
+  },
+  "province": "Morona Santiago",
+  "city": "Sucúa",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e192cc42f13246d16c3"
+  },
+  "province": "Morona Santiago",
+  "city": "Logroño",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e192cc42f13246d16c4"
+  },
+  "province": "Morona Santiago",
+  "city": "Morona",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e192cc42f13246d16c5"
+  },
+  "province": "Morona Santiago",
+  "city": "Palora",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e192cc42f13246d16c6"
+  },
+  "province": "Morona Santiago",
+  "city": "Santiago",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e192cc42f13246d16c7"
+  },
+  "province": "Morona Santiago",
+  "city": "San Juan Bosco",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e192cc42f13246d16c8"
+  },
+  "province": "Morona Santiago",
+  "city": "Huamboya",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e192cc42f13246d16c9"
+  },
+  "province": "Morona Santiago",
+  "city": "Limón Indanza",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e192cc42f13246d16ca"
+  },
+  "province": "Morona Santiago",
+  "city": "Gualaquiza",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e192cc42f13246d16cb"
+  },
+  "province": "Morona Santiago",
+  "city": "Morona",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e192cc42f13246d16cc"
+  },
+  "province": "Morona Santiago",
+  "city": "Pablo Sexto",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e192cc42f13246d16cd"
+  },
+  "province": "Morona Santiago",
+  "city": "Taisha",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e192cc42f13246d16ce"
+  },
+  "province": "Morona Santiago",
+  "city": "Sucúa",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e192cc42f13246d16cf"
+  },
+  "province": "Morona Santiago",
+  "city": "Santiago",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e192cc42f13246d16d0"
+  },
+  "province": "Napo",
+  "city": "Tena",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e192cc42f13246d16d1"
+  },
+  "province": "Napo",
+  "city": "El Chaco",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e192cc42f13246d16d2"
+  },
+  "province": "Napo",
+  "city": "Quijos",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e1a2cc42f13246d16d3"
+  },
+  "province": "Napo",
+  "city": "Archidona",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e1a2cc42f13246d16d4"
+  },
+  "province": "Napo",
+  "city": "Carlos Julio Arosemena Tola",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e1a2cc42f13246d16d5"
+  },
+  "province": "Napo",
+  "city": "El Chaco",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e1a2cc42f13246d16d6"
+  },
+  "province": "Napo",
+  "city": "Quijos",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e1a2cc42f13246d16d7"
+  },
+  "province": "Napo",
+  "city": "Tena",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e1a2cc42f13246d16d8"
+  },
+  "province": "Orellana",
+  "city": "Francisco de Orellana",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e1a2cc42f13246d16d9"
+  },
+  "province": "Orellana",
+  "city": "La Joya de los Sachas",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e1a2cc42f13246d16da"
+  },
+  "province": "Orellana",
+  "city": "Puerto Francisco de Orellana",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e1a2cc42f13246d16db"
+  },
+  "province": "Orellana",
+  "city": "Aguarico",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e1a2cc42f13246d16dc"
+  },
+  "province": "Orellana",
+  "city": "Gonzalo Pizarro",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e1a2cc42f13246d16dd"
+  },
+  "province": "Orellana",
+  "city": "La Joya de los Sachas",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e1a2cc42f13246d16de"
+  },
+  "province": "Orellana",
+  "city": "Lago Agrio",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e1a2cc42f13246d16df"
+  },
+  "province": "Orellana",
+  "city": "Loreto",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e1a2cc42f13246d16e0"
+  },
+  "province": "Orellana",
+  "city": "Santa María de Huachipires",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e1a2cc42f13246d16e1"
+  },
+  "province": "Orellana",
+  "city": "Tarapoa",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e1a2cc42f13246d16e2"
+  },
+  "province": "Pastaza",
+  "city": "Puyo",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e1a2cc42f13246d16e3"
+  },
+  "province": "Pastaza",
+  "city": "Santa Clara",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e1a2cc42f13246d16e4"
+  },
+  "province": "Pastaza",
+  "city": "Mera",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e1a2cc42f13246d16e5"
+  },
+  "province": "Pastaza",
+  "city": "Arajuno",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e1a2cc42f13246d16e6"
+  },
+  "province": "Pastaza",
+  "city": "Mera",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e1a2cc42f13246d16e7"
+  },
+  "province": "Pastaza",
+  "city": "Puyo",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e1a2cc42f13246d16e8"
+  },
+  "province": "Pastaza",
+  "city": "Santa Clara",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e1a2cc42f13246d16e9"
+  },
+  "province": "Pichincha",
+  "city": "Quito",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e1a2cc42f13246d16ea"
+  },
+  "province": "Pichincha",
+  "city": "Sangolquí",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e1b2cc42f13246d16eb"
+  },
+  "province": "Pichincha",
+  "city": "Cayambe",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e1b2cc42f13246d16ec"
+  },
+  "province": "Pichincha",
+  "city": "Pedro Moncayo",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e1b2cc42f13246d16ed"
+  },
+  "province": "Pichincha",
+  "city": "Mejía",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e1b2cc42f13246d16ee"
+  },
+  "province": "Pichincha",
+  "city": "Pedro Vicente Maldonado",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e1b2cc42f13246d16ef"
+  },
+  "province": "Pichincha",
+  "city": "Puellaro",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e1b2cc42f13246d16f0"
+  },
+  "province": "Pichincha",
+  "city": "Quito",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e1b2cc42f13246d16f1"
+  },
+  "province": "Pichincha",
+  "city": "Rumiñahui",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e1b2cc42f13246d16f2"
+  },
+  "province": "Pichincha",
+  "city": "San Miguel de los Bancos",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e1b2cc42f13246d16f3"
+  },
+  "province": "Pichincha",
+  "city": "Cayambe",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e1b2cc42f13246d16f4"
+  },
+  "province": "Pichincha",
+  "city": "Pedro Moncayo",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e1b2cc42f13246d16f5"
+  },
+  "province": "Santa Elena",
+  "city": "Santa Elena",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e1b2cc42f13246d16f6"
+  },
+  "province": "Santa Elena",
+  "city": "Salinas",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e1b2cc42f13246d16f7"
+  },
+  "province": "Santa Elena",
+  "city": "La Libertad",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e1b2cc42f13246d16f8"
+  },
+  "province": "Santa Elena",
+  "city": "La Libertad",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e1b2cc42f13246d16f9"
+  },
+  "province": "Santa Elena",
+  "city": "Salinas",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e1b2cc42f13246d16fa"
+  },
+  "province": "Santa Elena",
+  "city": "Santa Elena",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e1b2cc42f13246d16fb"
+  },
+  "province": "Santo Domingo de los Tsáchilas",
+  "city": "Santo Domingo",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e1b2cc42f13246d16fc"
+  },
+  "province": "Santo Domingo de los Tsáchilas",
+  "city": "La Concordia",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e1b2cc42f13246d16fd"
+  },
+  "province": "Santo Domingo de los Tsáchilas",
+  "city": "Santo Domingo de los Colorados",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e1b2cc42f13246d16fe"
+  },
+  "province": "Santo Domingo de los Tsáchilas",
+  "city": "La Concordia",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e1b2cc42f13246d16ff"
+  },
+  "province": "Santo Domingo de los Tsáchilas",
+  "city": "Santo Domingo",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e1b2cc42f13246d1700"
+  },
+  "province": "Santo Domingo de los Tsáchilas",
+  "city": "Santo Domingo de los Colorados",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e1b2cc42f13246d1701"
+  },
+  "province": "Sucumbíos",
+  "city": "Lago Agrio",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e1b2cc42f13246d1702"
+  },
+  "province": "Sucumbíos",
+  "city": "Shushufindi",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e1b2cc42f13246d1703"
+  },
+  "province": "Sucumbíos",
+  "city": "Nueva Loja",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e1c2cc42f13246d1704"
+  },
+  "province": "Sucumbíos",
+  "city": "Cuyabeno",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e1c2cc42f13246d1705"
+  },
+  "province": "Sucumbíos",
+  "city": "Gonzalo Pizarro",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e1c2cc42f13246d1706"
+  },
+  "province": "Sucumbíos",
+  "city": "Lago Agrio",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e1c2cc42f13246d1707"
+  },
+  "province": "Sucumbíos",
+  "city": "Putumayo",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e1c2cc42f13246d1708"
+  },
+  "province": "Sucumbíos",
+  "city": "Shushufindi",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e1c2cc42f13246d1709"
+  },
+  "province": "Sucumbíos",
+  "city": "Sucumbíos",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e1c2cc42f13246d170a"
+  },
+  "province": "Sucumbíos",
+  "city": "Nueva Loja",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e1c2cc42f13246d170b"
+  },
+  "province": "Tungurahua",
+  "city": "Ambato",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e1c2cc42f13246d170c"
+  },
+  "province": "Tungurahua",
+  "city": "Banos",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e1c2cc42f13246d170d"
+  },
+  "province": "Tungurahua",
+  "city": "Pelileo",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e1c2cc42f13246d170e"
+  },
+  "province": "Tungurahua",
+  "city": "Cevallos",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e1c2cc42f13246d170f"
+  },
+  "province": "Tungurahua",
+  "city": "Mocha",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e1c2cc42f13246d1710"
+  },
+  "province": "Tungurahua",
+  "city": "Patate",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e1c2cc42f13246d1711"
+  },
+  "province": "Tungurahua",
+  "city": "Pillaro",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e1c2cc42f13246d1712"
+  },
+  "province": "Tungurahua",
+  "city": "Quero",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e1c2cc42f13246d1713"
+  },
+  "province": "Tungurahua",
+  "city": "San Pedro de Pelileo",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e1c2cc42f13246d1714"
+  },
+  "province": "Tungurahua",
+  "city": "Tisaleo",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e1c2cc42f13246d1715"
+  },
+  "province": "Tungurahua",
+  "city": "Ambato",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e1c2cc42f13246d1716"
+  },
+  "province": "Tungurahua",
+  "city": "Banos",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e1c2cc42f13246d1717"
+  },
+  "province": "Tungurahua",
+  "city": "Pelileo",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e1c2cc42f13246d1718"
+  },
+  "province": "Tungurahua",
+  "city": "Quero",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e1d2cc42f13246d1719"
+  },
+  "province": "Zamora Chinchipe",
+  "city": "Zamora",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e1d2cc42f13246d171a"
+  },
+  "province": "Zamora Chinchipe",
+  "city": "Yantzaza",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e1d2cc42f13246d171b"
+  },
+  "province": "Zamora Chinchipe",
+  "city": "Centinela del Cóndor",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e1d2cc42f13246d171c"
+  },
+  "province": "Zamora Chinchipe",
+  "city": "Chinchipe",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e1d2cc42f13246d171d"
+  },
+  "province": "Zamora Chinchipe",
+  "city": "Nangaritza",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e1d2cc42f13246d171e"
+  },
+  "province": "Zamora Chinchipe",
+  "city": "Yacuambi",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e1d2cc42f13246d171f"
+  },
+  "province": "Zamora Chinchipe",
+  "city": "Yantzaza",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e1d2cc42f13246d1720"
+  },
+  "province": "Zamora Chinchipe",
+  "city": "Zamora",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e1d2cc42f13246d1721"
+  },
+  "province": "Zamora Chinchipe",
+  "city": "El Pangui",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e1d2cc42f13246d1722"
+  },
+  "province": "Zamora Chinchipe",
+  "city": "Paquisha",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ce7e1d2cc42f13246d1723"
+  },
+  "province": "Zamora Chinchipe",
+  "city": "Centinela del Cóndor",
+  "__v": 0
+}]

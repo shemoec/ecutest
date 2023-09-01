@@ -7,8 +7,8 @@ const Admin = require('../model/admin');
 const OfertaAcademica = require('../model/ofertaAcademica');
 const xlsx = require('xlsx');
 const fs = require('fs');
-const Result = require('../model/result');
-
+const Perfil = require('../model/perfiles');
+const Location = require('../model/location'); 
 
 
 exports.showStatistics = async (req, res) => {
@@ -682,8 +682,6 @@ exports.calculateScore = (req, res) => {
 }
 
 exports.submitTest = async (req, res) => {
-
-
   console.log(req.body);
 
   const answers = Object.values(req.body).filter(value => value !== undefined && value !== '');
@@ -724,8 +722,6 @@ exports.submitTest = async (req, res) => {
 
   let maxCount = Math.max(count0, count1, count2, count3, count4);
   
-let universidadesArea= [];
-
 const name = req.query.name;
 // Obtener la provincia del usuario a partir de su nombre
 const user = await User.findOne({ name: name });
@@ -741,66 +737,101 @@ let areas = [
   { area: "Área de ciencias de la salud", count: count3, universities: [] },
   { area: "Área de ciencias de ingenierías y arquitectura", count: count4, universities: [] }
 ];
-
 // Retrieve universities for each area
 for (let i = 0; i < areas.length; i++) {
   let area = areas[i];
-  area.universities = await OfertaAcademica.aggregate([
-    { $match: { area: area.area, provincia: user.province } },
-    { $sample: { size:5 } }
+  // Find universities in the user's city
+  let cityUniversities = await OfertaAcademica.aggregate([
+      { $match: { area: area.area, ciudad: user.ciudad } },
+      { $sample: { size:100 } }
   ]);
+  // Find universities in the user's province
+  let provinceUniversities = await OfertaAcademica.aggregate([
+      { $match: { area: area.area, provincia: user.province } },
+      { $sample: { size:100 } }
+  ]);
+  // Find universities in all provinces
+  let allUniversities = await OfertaAcademica.aggregate([
+      { $match: { area: area.area } },
+      { $sample: { size:100 } }
+  ]);
+  // Concatenate the results and store them in the universities property of the area object
+  area.universities = [...cityUniversities, ...provinceUniversities, ...allUniversities];
+  // Sort the universities by province, with the user's province listed first
+  area.universities.sort((a, b) => {
+    if (a.provincia === user.province) return -1;
+    if (b.provincia === user.province) return 1;
+    return a.provincia.localeCompare(b.provincia);
+  });
 }
 
+ // Calcular la suma total de respuestas
+ const totalCount = count0 + count1 + count2 + count3 + count4;
+
+ // Calcular los porcentajes y almacenarlos en el objeto de cada área
+ areas.forEach(area => {
+   area.percentage = (area.count / totalCount) * 100;
+ });
 // Imprimir el valor de areas en la consola
-console.log(`Valor de areas: ${JSON.stringify(areas, null, 2)}`);
+//console.log(`Valor de areas: ${JSON.stringify(areas, null, 2)}`);
 
 // Sort the areas array based on the count property, in descending order
 areas.sort((a, b) => b.count - a.count);
 
 
-// Sort the areas array based on the count property, in descending order
-areas.sort((a, b) => b.count - a.count);
-
-// Define a variable to store the result description
+// Obtén el área con el resultado más alto
+let maxArea;
 let result = '';
 
 if (maxCount === count0) {
-  const resultData = await Result.findById('64714d6d5164ae41dc656537');
+  maxArea = "Área de ciencias económicas y empresariales";
+  const resultData = await Perfil.findById('64e593f131a2337424db2f3f');
   if (resultData) {
     result = resultData.descripcion;
   }
 } else if (maxCount === count1) {
-  const resultData = await Result.findById('647150405164ae41dc65653c');
+  maxArea = "Área de ciencias exactas y naturales";
+  const resultData = await Perfil.findById('64e594a831a2337424db2f40');
   if (resultData) {
     result = resultData.descripcion;
   }
 } else if (maxCount === count2) {
-  const resultData = await Result.findById('647150a05164ae41dc656541');
+  maxArea = "Área de ciencias sociales, educación y humanidades";
+  const resultData = await Perfil.findById('64e594bb31a2337424db2f41');
   if (resultData) {
     result = resultData.descripcion;
   }
 } else if (maxCount === count3) {
-  const resultData = await Result.findById('647151c35164ae41dc656546');
+  maxArea = "Área de ciencias de la salud";
+  const resultData = await Perfil.findById('64e594ce31a2337424db2f42');
   if (resultData) {
     result = resultData.descripcion;
   }
 } else if (maxCount === count4) {
-  const resultData = await Result.findById('6471523d5164ae41dc65654b');
+  maxArea = "Área de ciencias de ingenierías y arquitectura";
+  const resultData = await Perfil.findById('64e59e68cd7a786c20344c76');
   if (resultData) {
     result = resultData.descripcion;
   }
 }
 
-// Pass the sorted areas array and the result description to the view
-res.render('result', { result: result, areas: areas, name: name });
+// Guarda el área con el resultado más alto en el modelo User
+try {
+  const user = await User.findOneAndUpdate({ name: name }, { resultadotest: maxArea }, { new: true });
+
+  // Imprime el usuario actualizado en la consola
+  console.log('Usuario actualizado:', user);
+
+  // ... Código posterior ...
+
+  // Renderiza la vista con el resultado y las áreas
+  res.render('result', { result: result, areas: areas, name: name, userProvince: user.province });
+} catch (error) {
+  console.error('Error al actualizar el usuario:', error);
+  res.render('error', { message: 'Error al guardar el resultado del test.' });
 }
 
-
-
-
-
-
-
+};
 
 
   exports.testPage = (req, res) => {
@@ -820,4 +851,94 @@ res.render('result', { result: result, areas: areas, name: name });
       });
   }
   
+  exports.moveUp = async (req, res) => {
+    try {
+      const questionId = req.params.id;
+      // Obtener la pregunta que se va a mover
+      const question = await Questiondb.findById(questionId);
+      // Obtener la pregunta anterior en la lista
+      const prevQuestion = await Questiondb.findOne({ order: question.order - 1 });
+      if (prevQuestion) {
+        // Intercambiar los valores de 'order' de las dos preguntas
+        await Questiondb.updateOne({ _id: questionId }, { order: prevQuestion.order });
+        await Questiondb.updateOne({ _id: prevQuestion._id }, { order: question.order });
+      }
+      res.redirect('/dashboard');
+    } catch (err) {
+      console.error(err);
+      res.status(500).send('Server Error');
+    }
+  };
+
+  exports.moveDown = async (req, res) => {
+    try {
+      const questionId = req.params.id;
+      // Obtener la pregunta que se va a mover
+      const question = await Questiondb.findById(questionId);
+      // Obtener la pregunta siguiente en la lista
+      const nextQuestion = await Questiondb.findOne({ order: question.order + 1 });
+      if (nextQuestion) {
+        // Intercambiar los valores de 'order' de las dos preguntas
+        await Questiondb.updateOne({ _id: questionId }, { order: nextQuestion.order });
+        await Questiondb.updateOne({ _id: nextQuestion._id }, { order: question.order });
+      }
+      res.redirect('/dashboard');
+    } catch (err) {
+      console.error(err);
+      res.status(500).send('Server Error');
+    }
+  };
   
+
+  
+  
+  exports.createProfile = async (req, res) => {
+    try {
+      const { area, descripcion } = req.body;
+  
+      const newProfile = new Perfil({
+        area,
+        descripcion
+      });
+  
+      await newProfile.save();
+      
+      res.render('createProfile.ejs', { loggedIn: true }); // Pasar la variable 'loggedIn' al contexto de la vista
+    } catch (error) {
+      console.error('Error:', error);
+      res.status(500).send('Hubo un error en el servidor');
+    }
+  };
+  
+  exports.listProfiles = async (req, res) => {
+    try {
+      const perfiles = await Perfil.find();
+      res.render('listProfile.ejs', { perfiles, loggedIn: true }); // Pasar la variable 'loggedIn' al contexto de la vista
+    } catch (error) {
+      console.error('Error:', error);
+      res.status(500).send('Hubo un error en el servidor');
+    }
+  };
+  
+
+  exports.showEditProfileForm = async (req, res) => {
+    try {
+      const perfil = await Perfil.findById(req.params.id);
+      res.render('editProfile.ejs', { perfil, loggedIn: true }); // Pasar la variable 'loggedIn' al contexto de la vista
+    } catch (error) {
+      console.error('Error:', error);
+      res.status(500).send('Hubo un error en el servidor');
+    }
+  };
+  
+  
+  exports.handleEditProfile = async (req, res) => {
+    try {
+      const { area, descripcion } = req.body;
+      await Perfil.findByIdAndUpdate(req.params.id, { area, descripcion });
+      res.redirect('/listProfile'); // Redirige a la página de listado
+    } catch (error) {
+      console.error('Error:', error);
+      res.status(500).send('Hubo un error en el servidor');
+    }
+  };

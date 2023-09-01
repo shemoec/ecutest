@@ -108,45 +108,159 @@
 
   </head>
   <body>
-
-    <div class="container">            
+    <div class="container">
       <img src="/img/logo-color.png" alt="Test Vocacional" class="logo-2">
       <h1 class="title">RESULTADO DEL TEST VOCACIONAL</h1>
       <h3 class="title">DE: <%= name %></h3>
+    
+      <% let maxPercentage = 0; %>
+      <% areas.forEach(function(area) { %>
+        <% if (area.percentage > maxPercentage) { %>
+          <% maxPercentage = area.percentage; %>
+        <% } %>
+      <% }) %>
+    
+      <!-- Tabla de estadísticas -->
+      <table class="table">
+        <thead>
+          <tr>
+            <th>Área de Estudio</th>
+            <th>Porcentaje</th>
+          </tr>
+        </thead>
+        <tbody>
+          <% areas.forEach(function(area) { %>
+            <tr>
+              <td><%= area.area %></td>
+              <td><%= area.percentage.toFixed(2) %>%</td>
+            </tr>
+          <% }) %>
+        </tbody>
+      </table>
+    
+      <!-- Fin de la tabla de estadísticas -->
       <p class="center">HA COMPLETADO EL TEST CON EL SIGUIENTE RESULTADO PRINCIPAL:</p>
       <p class="result"><%= result %></p>
-  
-      <h2 class="subtitle">Carreras Afines</h2>
-      <tbody>
-        <% areas.forEach(function(area) { %>
-          <button class="area-button" onclick="toggleTable('<%= area.area %>')"><%= area.area %></button>
+    
+      <!-- Carreras en la provincia del usuario -->
+      <h2 class="subtitle">CARRERAS OPTIMAS CON TU PERFIL EN TU PROVINCIA</h2>
+    
+      <% areas.forEach(function(area) { %>
+    
+        <% if (area.percentage === maxPercentage) { %> <!-- Filtrar por el área con el mayor porcentaje -->
+    
           <% if (area.universities && area.universities.length > 0) { %>
+    
+            <div class="area-container">
+              <!-- Div para alinear los botones verticalmente -->
+              <button class="area-button" onclick="toggleTable('<%= area.area %>')"><%= area.area %></button>
+    
+            </div> <!-- End of div for button alignment -->
+    
             <table class="table" id="<%= area.area %>" style="display: none;">
-              <thead>
-                <tr>
-                  <th>Institución</th>
-                  <th>Carrera</th>
-                  <th>Ciudad</th>
-                  <th>Link</th>
-                </tr>
-              </thead>
               <tbody>
+    
+                <% let currentProvince = ""; %>
+    
                 <% area.universities.forEach(function(universidad) { %>
-                  <tr>
-                    <td><%= universidad.institucion %></td>
-                    <td><%= universidad.carrera %></td>
-                    <td><%= universidad.ciudad %></td>
-                    <td><a href="<%= universidad.link %>"><%= universidad.link %></a></td>
-                  </tr>
-                <% }) %>
-              </tbody>
-            </table>
-          <% } else { %>
-            <p>No universities found for this area.</p>
-            <!-- Add debugging code here -->
-            <pre><%= JSON.stringify(area, null, 2) %></pre>
-          <% } %>
-        <% }) %>
+    
+                  <% if (universidad.provincia === userProvince) { %> <!-- Filtrar por la provincia del usuario -->
+    
+                    <% if (universidad.provincia !== currentProvince) { %> 
+    
+                      <% currentProvince = universidad.provincia; %> 
+    
+                      <!-- Display the province title -->
+                      <tr><td colspan="4"><h3><%= currentProvince %></h3></td></tr> 
+    
+                    <% } %> 
+    
+                    <tr> 
+                      <td><%= universidad.institucion %></td> 
+                      <td><%= universidad.carrera %></td> 
+                      <td><%= universidad.ciudad %></td> 
+    
+                      <!-- Link to the university website -->
+                      <td><a href="<%= universidad.link %>"><%= universidad.link %></a></td> 
+    
+                    </tr> 
+    
+                  <% } %> <!-- End of filter by user province -->
+    
+                <% }) %> <!-- End of universities loop -->
+    
+              </tbody> <!-- End of table body -->
+            </table> <!-- End of table -->
+    
+          <% } %> <!-- End of check for universities -->
+    
+        <% } %> <!-- End of filter by max percentage -->
+    
+      <% }) %> <!-- End of areas loop -->
+    
+      <!-- Carreras en otras provincias -->
+      <h2 class="subtitle">CARRERAS OPTIMAS CON TU PERFIL EN OTRAS PROVINCIAS</h2>
+    
+      <% areas.forEach(function(area) { %>
+    
+        <% if (area.percentage === maxPercentage) { %> <!-- Filtrar por el área con el mayor porcentaje -->
+    
+          <% if (area.universities && area.universities.length > 0) { %>
+    
+            <div class="area-container">
+              <!-- Div para alinear los botones verticalmente -->
+              <button class="area-button" onclick="toggleTable('<%= area.area %>OtherProvinces')"><%= area.area %></button>
+    
+            </div> <!-- End of div for button alignment -->
+    
+            <table class="table" id="<%= area.area %>OtherProvinces" style="display: none;">
+              <tbody>
+    
+                <% let currentProvinceOther = ""; %>
+    
+                <% area.universities.forEach(function(universidad) { %>
+    
+                  <% if (universidad.provincia !== userProvince) { %> <!-- Filtrar por otras provincias -->
+    
+                    <% if (universidad.provincia !== currentProvinceOther) { %> 
+    
+                      <% currentProvinceOther = universidad.provincia; %> 
+    
+                      <!-- Display the province title -->
+                      <tr><td colspan="4"><h3><%= currentProvinceOther %></h3></td></tr> 
+    
+                    <% } %> 
+    
+                    <tr> 
+                      <td><%= universidad.institucion %></td> 
+                      <td><%= universidad.carrera %></td> 
+                      <td><%= universidad.ciudad %></td> 
+    
+                      <!-- Link to the university website -->
+                      <td><a href="<%= universidad.link %>"><%= universidad.link %></a></td> 
+    
+                    </tr> 
+    
+                  <% } %> <!-- End of filter by other provinces -->
+    
+                <% }) %> <!-- End of universities loop -->
+    
+              </tbody> <!-- End of table body -->
+            </table> <!-- End of table -->
+    
+          <% } %> <!-- End of check for universities -->
+    
+        <% } %> <!-- End of filter by max percentage -->
+    
+      <% }) %> <!-- End of areas loop -->
+    </div> <!-- End of container div -->
+    
+
+  
+    
+      
+      
+          
         
         <script>
           function toggleTable(area) {

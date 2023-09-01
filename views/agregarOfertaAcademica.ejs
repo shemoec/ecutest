@@ -27,39 +27,15 @@
             </div>
             <div class="form-group">
                 <label for="provincia" class="text-light">Provincia</label>
-                <select id="provincia" name="provincia" required class="form-control">
-                    <option value="" disabled selected>Selecciona una provincia</option>
-                    <option value="Azuay">Azuay</option>
-                    <option value="Bolívar">Bolívar</option>
-                    <option value="Cañar">Cañar</option>
-                    <option value="Carchi">Carchi</option>
-                    <option value="Chimborazo">Chimborazo</option>
-                    <option value="Cotopaxi">Cotopaxi</option>
-                    <option value="El Oro">El Oro</option>
-                    <option value="Esmeraldas">Esmeraldas</option>
-                    <option value="Galápagos">Galápagos</option>
-                    <option value="Guayas">Guayas</option>
-                    <option value="Imbabura">Imbabura</option>
-                    <option value="Loja">Loja</option>
-                    <option value="Los Ríos">Los Ríos</option>
-                    <option value="Manabí">Manabí</option>
-                    <option value="Morona Santiago">Morona Santiago</option>
-                    <option value="Napo">Napo</option>
-                    <option value="Orellana">Orellana</option>
-                    <option value="Pastaza">Pastaza</option>
-                    <option value="Pichincha">Pichincha</option>
-                    <option value="Santa Elena">Santa Elena</option>
-                    <option value="Santo Domingo de los Tsáchilas">Santo Domingo de los Tsáchilas</option>
-                    <option value="Sucumbíos">Sucumbíos</option>
-                    <option value="Tungurahua">Tungurahua</option>
-                    <option value="Zamora Chinchipe">Zamora Chinchipe</option>
+                <select id="province" name="province" class="form-control">
+                  <option value="" disabled selected>Selecciona una provincia</option>
                 </select>
             </div>
             
             <div class="form-group">
                 <label for="ciudad" class="text-light">Ciudad</label>
-                <select id="ciudad" name="ciudad" required class="form-control">
-                    <option value="" disabled selected>Selecciona una ciudad</option>
+                <select id="location" name="location" class="form-control">
+                  <option value="" disabled selected>Selecciona una ciudad</option>
                 </select>
             </div>
             <div class="form-group">
@@ -109,77 +85,65 @@
       
           
           <script>
-            const provinciaSelect = document.getElementById('provincia');
-            const ciudadSelect = document.getElementById('ciudad');
-                        
-                        // En tu código del lado del cliente
-            function actualizarEnlace() {
-            // Obtener la institución seleccionada
-            var institucionSeleccionada = document.getElementById('institucion').value;
-            
-            // Buscar el enlace correspondiente a la institución seleccionada
-            var links = JSON.parse(document.getElementById('links').textContent);
-            var enlace = links[institucionSeleccionada];
-            
-            // Actualizar el valor del campo de enlace
-            document.getElementById('link').value = enlace;
-            }
+              const provinciaSelect = document.getElementById('province');
+              const ciudadSelect = document.getElementById('location');
 
-            // Agregar controlador de eventos al menú desplegable de instituciones
-            document.getElementById('institucion').addEventListener('change', actualizarEnlace);
+              // Función para obtener las provincias desde el servidor
+              async function obtenerProvincias() {
+                try {
+                  const response = await fetch('/api/provincias');
+                  const provincias = await response.json();
 
+                  // Agregar las opciones al select de provincias
+                  provincias.forEach(provincia => {
+                    const option = document.createElement('option');
+                    option.value = provincia;
+                    option.textContent = provincia;
+                    provinciaSelect.appendChild(option);
+                  });
 
-
-
-                var ciudadesPorProvincia = {
-                                            "Azuay": ["Cuenca", "Gualaceo", "Chordeleg", "Paute", "Sigsig", "Santa Isabel", "Pucará", "Oña", "Girón", "Nabón", "San Fernando", "Santa Ana", "Loja", "Sevilla de Oro", "El Pan", "Guachapala", "Camilo Ponce Enríquez", "Sígsig"],
-                                            "Bolívar": ["Guaranda", "San Miguel", "Chillanes", "Caluma", "Las Naves", "Echeandía", "San José de Chimbo", "Chimbo", "Guanujo", "Simiatug"],
-                                            "Cañar": ["Azogues", "La Troncal", "El Tambo", "Biblián", "Déleg", "Suscal", "El Carmen", "La Mancha", "Azogues", "Cañar"],
-                                            "Carchi": ["Tulcán", "Montúfar", "Mira", "Bolívar", "Espejo", "Mira", "Montúfar", "San Pedro de Huaca"],
-                                            "Chimborazo": ["Riobamba", "Guano", "Alausí", "Chambo", "Chunchi", "Colta", "Cumandá", "Guamote", "Guano", "Pallatanga", "Penipe"],
-                                            "Cotopaxi": ["Latacunga", "La Maná", "Saquisilí", "Salcedo", "Sigchos", "Pangua", "Latacunga", "Pujilí"],
-                                            "El Oro": ["Machala", "Pasaje", "Santa Rosa", "Arenillas", "Atahualpa", "Balsas", "Chilla", "El Guabo", "Huaquillas", "Las Lajas", "Marcabelí", "Piñas", "Portovelo", "Zaruma", "Santa Rosa"],
-                                            "Esmeraldas": ["Esmeraldas", "Atacames", "Muisne", "Rioverde", "Quinindé", "San Lorenzo", "Eloy Alfaro"],
-                                            "Galápagos": ["Puerto Baquerizo Moreno", "Puerto Ayora", "Isla Isabela", "Santa Cruz", "San Cristóbal"],
-                                            "Guayas": ["Guayaquil", "Durán", "Samborondón", "Playas", "Daule", "Nobol", "Isidro Ayora", "El Empalme", "Balzar", "Colimes", "Palestina", "Pedro Carbo", "Salitre", "Yaguachi", "Lomas de Sargentillo", "Milagro", "Naranjal", "Naranjito", "Guayaquil", "Durán", "Samborondón", "Playas"],
-                                            "Imbabura": ["Ibarra", "Otavalo", "Cotacachi", "Antonio Ante", "Pimampiro", "Urcuquí", "Ibarra", "Otavalo", "Cotacachi"],
-                                            "Loja": ["Loja", "Catamayo", "Zapotillo", "Calvas", "Gonzanamá", "Espíndola", "Macará", "Paltas", "Puyango", "Saraguro", "Sozoranga", "Catamayo", "Chaguarpamba", "Olmedo", "Puyango", "Quilanga"],
-                                            "Los Ríos": ["Babahoyo", "Quevedo", "Ventanas", "Buena Fe", "Mocache", "Montalvo", "Palenque", "Puebloviejo", "Quinsaloma", "Valencia", "Urdaneta", "Babahoyo", "Montalvo", "Palenque", "Quevedo", "Valencia", "Ventanas", "Vinces"],
-                                            "Manabí": ["Portoviejo", "Manta", "Jipijapa", "Chone", "El Carmen", "Flavio Alfaro", "Jama", "Jaramijó", "Junín", "Manta", "Montecristi", "Paján", "Pedernales", "Pichincha", "Rocafuerte", "Santa Ana", "Sucre", "Tosagua", "24 de Mayo", "Olmedo"],
-                                            "Morona Santiago": ["Macas", "Gualaquiza", "Sucúa", "Logroño", "Morona", "Palora", "Santiago", "San Juan Bosco", "Huamboya", "Limón Indanza", "Gualaquiza", "Morona", "Pablo Sexto", "Taisha", "Sucúa", "Santiago"],
-                                            "Napo": ["Tena", "El Chaco", "Quijos", "Archidona", "Carlos Julio Arosemena Tola", "El Chaco", "Quijos", "Tena"],
-                                            "Orellana": ["Francisco de Orellana", "La Joya de los Sachas", "Puerto Francisco de Orellana", "Aguarico", "Gonzalo Pizarro", "La Joya de los Sachas", "Lago Agrio", "Loreto", "Santa María de Huachipires", "Tarapoa"],
-                                            "Pastaza": ["Puyo", "Santa Clara", "Mera", "Arajuno", "Mera", "Puyo", "Santa Clara"],
-                                            "Pichincha": ["Quito", "Sangolquí", "Cayambe", "Pedro Moncayo", "Mejía", "Pedro Vicente Maldonado", "Puellaro", "Quito", "Rumiñahui", "San Miguel de los Bancos", "Cayambe", "Pedro Moncayo"],
-                                            "Santa Elena": ["Santa Elena", "Salinas", "La Libertad", "La Libertad", "Salinas", "Santa Elena"],
-                                            "Santo Domingo de los Tsáchilas": ["Santo Domingo", "La Concordia", "Santo Domingo de los Colorados", "La Concordia", "Santo Domingo", "Santo Domingo de los Colorados"],
-                                            "Sucumbíos": ["Lago Agrio", "Shushufindi", "Nueva Loja", "Cuyabeno", "Gonzalo Pizarro", "Lago Agrio", "Putumayo", "Shushufindi", "Sucumbíos", "Nueva Loja"],
-                                            "Tungurahua": ["Ambato", "Banos", "Pelileo", "Cevallos", "Mocha", "Patate", "Pillaro", "Quero", "San Pedro de Pelileo", "Tisaleo", "Ambato", "Banos", "Pelileo", "Quero"],
-                                            "Zamora Chinchipe": ["Zamora", "Yantzaza", "Centinela del Cóndor", "Chinchipe", "Nangaritza", "Yacuambi", "Yantzaza", "Zamora", "El Pangui", "Paquisha", "Centinela del Cóndor"]
-                                            };
-
-
-                // Función para actualizar las ciudades según la provincia seleccionada
-                function actualizarCiudades() {
-                    var provinciaSeleccionada = provinciaSelect.value;
-                    var ciudades = ciudadesPorProvincia[provinciaSeleccionada];
-
-                    // Elimina las opciones anteriores
-                    while (ciudadSelect.firstChild) {
-                        ciudadSelect.removeChild(ciudadSelect.firstChild);
-                    }
-
-                    // Agrega las nuevas opciones
-                    for (var i = 0; i < ciudades.length; i++) {
-                        var ciudadOption = document.createElement("option");
-                        ciudadOption.value = ciudades[i];
-                        ciudadOption.text = ciudades[i];
-                        ciudadSelect.appendChild(ciudadOption);
-                    }
+                  // Llamar a la función para cargar las ciudades según la provincia seleccionada inicialmente
+                  actualizarCiudades();
+                } catch (error) {
+                  console.error('Error al obtener las provincias:', error);
                 }
+              }
 
-                // Escucha el evento de cambio en el campo de provincia
-                provinciaSelect.addEventListener("change", actualizarCiudades);
+              // Función para obtener las ciudades de una provincia desde el servidor
+              async function obtenerCiudades() {
+                try {
+                  const provinciaSeleccionada = provinciaSelect.value;
+                  const response = await fetch(`/api/ciudades/${provinciaSeleccionada}`);
+                  const ciudades = await response.json();
+
+                  // Eliminar las opciones anteriores del select de ciudades
+                  while (ciudadSelect.firstChild) {
+                    ciudadSelect.removeChild(ciudadSelect.firstChild);
+                  }
+
+                  // Agregar las nuevas opciones al select de ciudades
+                  ciudades.forEach(ciudad => {
+                    const option = document.createElement('option');
+                    option.value = ciudad;
+                    option.textContent = ciudad;
+                    ciudadSelect.appendChild(option);
+                  });
+                } catch (error) {
+                  console.error('Error al obtener las ciudades:', error);
+                }
+              }
+
+              // Función para actualizar las ciudades según la provincia seleccionada
+              function actualizarCiudades() {
+                obtenerCiudades();
+              }
+
+              // Llamar a la función para obtener las provincias desde el servidor
+              obtenerProvincias();
+
+              // Escuchar el evento de cambio en el campo de provincia
+              provinciaSelect.addEventListener('change', actualizarCiudades);
+
           </script>
              
 

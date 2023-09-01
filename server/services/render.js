@@ -1,7 +1,7 @@
 const axios = require('axios');
 const { obtenerEstadisticas } = require('../controller/controller');
 const OfertaAcademica = require('../model/ofertaAcademica');
-const Result = require('../model/result');
+const Perfil = require('../model/perfiles');
 
 exports.homeRoutes = async (req, res) => {
   const loggedIn = req.session.isLoggedIn || false;
@@ -139,6 +139,7 @@ exports.crearAdmin = (req, res) => {
   res.render('crearAdmin');
 };
 
+
 exports.login = (req, res) => {
   const loggedIn = req.session.isLoggedIn || false;
   res.render('login', { loggedIn });
@@ -164,6 +165,8 @@ exports.renderCreateForm = async (req, res) => {
     });
   }
 };
+
+
 
 
 

@@ -5,8 +5,32 @@ const services = require('../services/render');
 const controller = require('../controller/controller');
 const authMiddleware = require('../middlewares/authMiddleware');
 const multer = require('multer');
+const Questiondb = require('../model/model');
 const upload = multer({ dest: 'uploads/' });
+const Location = require('../model/location');
+const Perfil = require('../model/perfiles');
 
+
+// Ruta para obtener todas las provincias
+route.get('/provincias', async (req, res) => {
+  try {
+    const provincias = await Location.distinct('province');
+    res.json(provincias);
+  } catch (error) {
+    res.status(500).json({ message: 'Error al obtener las provincias.' });
+  }
+});
+
+// Ruta para obtener las ciudades por provincia
+route.get('/ciudades/:provincia', async (req, res) => {
+  try {
+    const provincia = req.params.provincia;
+    const ciudades = await Location.find({ province: provincia }).distinct('city');
+    res.json(ciudades);
+  } catch (error) {
+    res.status(500).json({ message: 'Error al obtener las ciudades.' });
+  }
+});
 
 route.get('/estadisticas', controller.showStatistics);
 
@@ -89,7 +113,27 @@ route.post('/logout', (req, res) => {
   });
 });
 
+route.get('/move-up/:id', controller.moveUp);
+route.get('/move-down/:id', controller.moveDown);
 
+route.get('/update-order', async (req, res) => {
+  const questions = await Questiondb.find().sort({ _id: 1 });
+  for (let i = 0; i < questions.length; i++) {
+    await Questiondb.updateOne({ _id: questions[i]._id }, { order: i + 1 });
+  }
+  res.send('Orden actualizado');
+});
+route.get('/createProfile', (req, res) => {
+  res.render('createProfile.ejs'); // Asegúrate de que la ruta de la vista sea correcta
+});
+
+route.post('/createProfile', controller.createProfile);
+route.get('/listProfile', controller.listProfiles);
+// Ruta para mostrar el formulario de edición de un perfil específico
+route.get('/editProfile/:id', controller.showEditProfileForm);
+
+// Ruta para manejar la edición de un perfil
+route.post('/editProfile/:id', controller.handleEditProfile);
 
 
 

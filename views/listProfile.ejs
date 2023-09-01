@@ -1,0 +1,33 @@
+<!-- include header -->
+<%- include('include/_header') %>
+<!-- /include header -->
+
+<div class="container">
+  <%- include('include/_dashboardmenu') %>
+
+  <table class="table" id="resultTable">
+    <thead>
+      <tr>
+        <th>Área</th>
+        <th>Descripción</th>
+        <th>Acciones</th>
+      </tr>
+    </thead>
+    <tbody>
+      <% perfiles.forEach(function(perfil) { %>
+        <tr>
+          <td><%= perfil.area %></td>
+          <td><%= perfil.descripcion %></td>
+          <td>
+            <a href="/editProfile/<%= perfil._id %>" class="btn btn-sm btn-primary">Editar</a>
+          </td>
+        </tr>
+      <% }) %>
+    </tbody>
+  </table>
+  
+</div>
+
+<!-- include footer -->
+<%- include('include/_footer') %>
+<!-- /include footer -->

@@ -1,0 +1,23 @@
+<!-- include header -->
+<%- include('include/_header') %>
+<!-- /include header -->
+
+<div class="container">
+  <%- include('include/_dashboardmenu') %>
+
+  <form action="/editProfile/<%= perfil._id %>" method="POST">
+    <div class="form-group">
+      <label for="descripcion">Área:</label>
+      <input type="text" class="form-control" id="area" name="area" value="<%= perfil.area %>" readonly >
+      <label for="descripcion">Descripción:</label>
+      <textarea class="form-control" id="descripcion" name="descripcion" required><%= perfil.descripcion %></textarea>
+    </div>
+    
+    <button type="submit" class="btn btn-primary">Guardar Cambios</button>
+  </form>
+  
+</div>
+
+<!-- include footer -->
+<%- include('include/_footer') %>
+<!-- /include footer -->
